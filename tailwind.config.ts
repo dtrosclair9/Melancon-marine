@@ -43,7 +43,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-dm-sans)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        serif: ['var(--font-fraunces)', 'Georgia', 'serif'],
+        serif: ['var(--font-display)', 'Georgia', 'serif'],
         mono: ['var(--font-jetbrains)', 'ui-monospace', 'monospace'],
       },
       letterSpacing: {

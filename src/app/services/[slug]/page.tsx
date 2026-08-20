@@ -106,7 +106,7 @@ export default async function ServicePage({ params }: Props) {
           <Reveal>
             <p className="section-label mb-3">Why Melancon Marine</p>
             <h2 className="text-3xl md:text-4xl font-semibold mb-12">
-              What you get when you call {site.phoneDisplay}
+              Why people call us
             </h2>
           </Reveal>
           <div className="grid md:grid-cols-2 gap-x-12 gap-y-10">
@@ -149,7 +149,7 @@ export default async function ServicePage({ params }: Props) {
             <Reveal>
               <p className="section-label--light mb-3">How It Works</p>
               <h2 className="text-3xl md:text-4xl font-semibold !text-cream mb-12">
-                Four steps from call to job done
+                How a job goes
               </h2>
             </Reveal>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -207,7 +207,7 @@ export default async function ServicePage({ params }: Props) {
           <div className="container-wide">
             <Reveal>
               <p className="section-label mb-3">On the Job</p>
-              <h2 className="text-3xl md:text-4xl font-semibold mb-10">From the fleet, not a stock library</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold mb-10">Our equipment on the job</h2>
             </Reveal>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {page.gallery.map((g, i) => (
@@ -241,7 +241,7 @@ export default async function ServicePage({ params }: Props) {
       </section>
 
       {/* FAQs */}
-      <FaqSection faqs={page.faqs} heading={`${page.navLabel}: your questions, answered`} />
+      <FaqSection faqs={page.faqs} heading="Common questions" />
 
       {/* Related services */}
       <section className="py-14 bg-cream border-t border-line">

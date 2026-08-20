@@ -70,7 +70,7 @@ export default function ServicesIndexPage() {
       <PageHero
         h1="Marine Services in South Louisiana"
         kicker="Towing · Rentals · Construction"
-        intro="One fleet out of Larose covering the tow, the equipment, and the build. Every service below gets its own crew, its own page, and its own straight answers."
+        intro="Towing, rentals, and construction out of Larose. Every service below has its own page with details, coverage area, and answers to common questions."
         image="/images/hero-fleet.jpg"
         imageAlt="Melancon Marine fleet staged on a South Louisiana dock at golden hour"
         crumbs={[{ href: '/services', label: 'Services' }]}

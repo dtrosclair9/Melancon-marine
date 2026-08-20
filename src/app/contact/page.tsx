@@ -32,7 +32,7 @@ const contactSchema = {
 const contactFaqs = [
   {
     q: 'What should I have ready when I call for a quote?',
-    a: 'The job location, what needs to happen there, your rough dates, and anything unusual about the site: water depth, access, overhead lines, or a tight schedule. If you do not have all of it, call anyway; the conversation is how the missing pieces get figured out.',
+    a: "The job location, what needs to happen there, your rough dates, and anything unusual about the site: water depth, access, overhead lines, or a tight schedule. If you don't have all of it, call anyway and we'll figure out the missing pieces together.",
   },
   {
     q: 'Is calling or the form better?',
@@ -44,7 +44,7 @@ const contactFaqs = [
   },
   {
     q: 'Can I get equipment on short notice?',
-    a: 'Sometimes, depending on where the fleet is working that week. Call with the dates and we will tell you honestly what is available; if we cannot cover it, we will say so quickly enough for you to make another plan.',
+    a: "Sometimes, depending on where the fleet is working that week. Call with the dates and we'll tell you what's available. If we can't cover it, we'll tell you right away so you can make another plan.",
   },
 ]
 
@@ -60,9 +60,7 @@ export default function ContactPage() {
               Tell us about the job
             </h1>
             <p className="text-lg text-earth-light leading-relaxed">
-              Towing, rentals, construction, spraying, or brokering: one number and one form
-              cover the whole fleet. The more you can tell us about the water and the work, the
-              faster the quote comes back.
+              Towing, rentals, construction, spraying, and brokering all go through the same number and the same form. The more you tell us about the job and the site, the faster we can quote it.
             </p>
           </div>
 

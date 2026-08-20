@@ -67,7 +67,7 @@ const fleet = [
   {
     name: 'Airboats',
     spec: '2× working rigs',
-    body: 'Access to the marsh nothing else reaches: surveys, right-of-way support, and our herbicide spraying operations.',
+    body: 'Marsh access for surveys, right-of-way support, and our herbicide spraying work.',
     image: '/images/airboat-parked.jpg',
     alt: 'Working airboat staged on the grass in Larose Louisiana',
   },
@@ -76,15 +76,15 @@ const fleet = [
 const values = [
   {
     title: 'Straight answers',
-    body: 'Scope, price, and schedule get told to you plainly, including when our equipment is the wrong fit for your job.',
+    body: "We tell you the scope, price, and schedule plainly, including when our equipment isn't the right fit for your job.",
   },
   {
     title: 'The fleet is ours',
-    body: 'We own what we run and maintain it like the next job depends on it. When we commit a date, the equipment behind that date belongs to us.',
+    body: 'We own what we run and we maintain it ourselves. When we commit to a date, the equipment behind that date is ours.',
   },
   {
     title: 'Local water knowledge',
-    body: 'Bayou Lafourche, the ICW, and the marshes between are home. Water levels, bridge schedules, and soft banks are working knowledge, not surprises.',
+    body: 'Bayou Lafourche, the ICW, and the marshes between them are home water. We deal with the water levels, bridge schedules, and soft banks here every week.',
   },
 ]
 
@@ -115,22 +115,13 @@ export default function AboutPage() {
                   Melancon Marine is a marine towing, equipment rental, and marine construction
                   company based in {site.city}, {site.stateFull}, owned and operated by{' '}
                   {site.owner}. The yard sits where Bayou Lafourche meets the Intracoastal
-                  Waterway, about half an hour up LA-1 from Port Fourchon, a junction that puts
-                  the fleet within working range of the busiest marine corridors in South
-                  Louisiana.
+                  Waterway, about half an hour up LA-1 from Port Fourchon.
                 </p>
                 <p>
-                  The model is deliberately simple: own the equipment the coast actually uses,
-                  keep it working, and answer the phone. Two 1,200 HP tugboats, two spud barges
-                  with excavators aboard, two Hanko&apos;s-built aluminum crew boats, and two
-                  working airboats cover the tow, the platform, the reach, and the access that
-                  marine jobs down here are made of, and the fleet is still growing.
+                  The fleet is two 1,200 HP tugboats, two spud barges with excavators, two Hanko&apos;s-built aluminum crew boats, and two working airboats, and it&apos;s still growing. That covers most of what marine jobs down here call for: the tow, the platform, the digging, and the access.
                 </p>
                 <p>
-                  Some companies tow. Some rent. Some build. Keeping all three under one roof is
-                  the point: the contractor renting our spud barge gets it delivered by our tug,
-                  and the camp owner whose dock we build gets it driven from our own barge. Fewer
-                  vendors, fewer handoffs, one standard for how the work gets done.
+                  Keeping towing, rentals, and construction under one roof means fewer handoffs. The contractor renting our spud barge gets it delivered by our tug, and the camp owner whose dock we build gets it driven from our own barge. Either way, the responsibility stays with us from start to finish.
                 </p>
               </div>
             </Reveal>
@@ -165,8 +156,7 @@ export default function AboutPage() {
             <p className="section-label mb-3">The Fleet</p>
             <h2 className="text-3xl md:text-4xl font-semibold mb-4">What&apos;s at the dock</h2>
             <p className="text-earth-light max-w-2xl mb-12">
-              Every piece earns its slip: the same equipment that rents to contractors runs our
-              own towing and construction work between rentals.
+              The same equipment we rent to contractors runs our own towing and construction work between rentals.
             </p>
           </Reveal>
           <div className="grid sm:grid-cols-2 gap-7">
@@ -205,11 +195,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-semibold mb-6">Larose, Louisiana</h2>
               <div className="space-y-5 text-earth-light leading-relaxed">
                 <p>
-                  Larose is a working town on a working bayou. Shrimp boats, crew boats, and tows
-                  share the water here the way pickups share the highway, and the community has
-                  built its living on what the Gulf and the marsh provide. Basing the fleet here
-                  is not a marketing choice; it is where the water, the work, and the people who
-                  do it already are.
+                  Larose is a working town on a working bayou. Shrimp boats, crew boats, and tows share the water here every day, and most of the marine trades in the parish are within a few miles of our dock.
                 </p>
                 <p>
                   From this stretch of Bayou Lafourche, the fleet reaches Port Fourchon to the
@@ -230,7 +216,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <CtaBand heading="Talk to the owner, not a switchboard" />
+      <CtaBand heading="Have a job on the water?" />
     </>
   )
 }

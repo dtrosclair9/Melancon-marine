@@ -46,8 +46,7 @@ export default function ContactForm() {
       <div className="bg-cream border border-line rounded-lg p-8 text-center" role="status">
         <p className="font-serif text-2xl text-ink mb-2">Request received.</p>
         <p className="text-earth-light">
-          Thanks for reaching out. We will get back to you about your project. If the water will
-          not wait, call{' '}
+          Thanks for reaching out. We&apos;ll get back to you soon. If it&apos;s urgent, call{' '}
           <a href={`tel:${site.phoneRaw}`} className="text-primary font-semibold hover:underline">
             {site.phoneDisplay}
           </a>

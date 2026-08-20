@@ -51,11 +51,11 @@ const industries = [
   },
   {
     title: 'Land Managers & Leases',
-    body: 'Canal spraying, marsh access, and excavation for the people responsible for working land.',
+    body: 'Canal spraying, marsh access, and excavation for landowners and lease managers.',
   },
   {
     title: 'Waterfront Homeowners & Camps',
-    body: 'Bulkheads, docks, and pilings for the properties that live on this water.',
+    body: 'Bulkheads, docks, and pilings for waterfront homes and camps.',
   },
 ]
 
@@ -74,7 +74,7 @@ const processSteps = [
   },
   {
     title: 'The job gets done',
-    detail: 'Towed, rented, built, or sprayed: the work finishes, the site is clean, and you know who to call next time.',
+    detail: 'The work gets done, the site gets cleaned up, and you know who to call next time.',
   },
 ]
 
@@ -110,11 +110,11 @@ const homeFaqs = [
   },
   {
     q: 'How do I get a quote?',
-    a: 'Call (985) 691-4591 or send the request form on our contact page with the job, the location, and the dates. Quotes are written and itemized, and if our equipment is the wrong fit for the job, we will say so and point you in a better direction.',
+    a: 'Call (985) 691-4591 or send the request form on our contact page with the job, the location, and the dates. Quotes are written and itemized, and if our equipment is not the right fit for the job, we will say so.',
   },
   {
     q: 'Can you handle a full project, not just one piece of it?',
-    a: 'That is the point of the fleet. One call can cover the platform, the excavator on it, the tug that positions it, the crew boat that moves your people, and the construction crew that does the work. One company, one schedule, one number to call when anything changes.',
+    a: 'Yes. We can supply the barge, the excavator on it, the tug that positions it, the crew boat that moves your people, and the construction crew that does the work, all on the same schedule.',
   },
   {
     q: 'Do you work with homeowners, or only companies?',
@@ -122,7 +122,7 @@ const homeFaqs = [
   },
   {
     q: 'Do you broker marine equipment?',
-    a: 'Yes. Alongside our own fleet we broker tugs, barges, workboats, and marine equipment of all types, connecting buyers and sellers through our network across the Gulf Coast. Call with what you have or what you are hunting for.',
+    a: 'Yes. Alongside our own fleet we broker tugs, barges, workboats, and marine equipment of all types, connecting buyers and sellers through our network across the Gulf Coast. Call with what you have or what you are looking for.',
   },
 ]
 
@@ -204,9 +204,7 @@ export default function HomePage() {
                 Marine Towing, Equipment Rentals & Marine Construction in Larose, Louisiana
               </h1>
               <p className="text-lg text-earth-light leading-relaxed mb-8 max-w-xl">
-                Melancon Marine runs tugs, spud barges, crew boats, and airboats out of Larose,
-                where Bayou Lafourche meets the Intracoastal Waterway. One call puts the right
-                equipment — and the crew behind it — on your water.
+                Melancon Marine runs tugs, spud barges, crew boats, and airboats out of Larose, where Bayou Lafourche meets the Intracoastal Waterway. We handle towing, equipment rentals, and marine construction with our own boats and barges.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a href={`tel:${site.phoneRaw}`} className="btn-primary">Call {site.phoneDisplay}</a>
@@ -262,10 +260,9 @@ export default function HomePage() {
         <div className="container-wide">
           <Reveal>
             <p className="section-label mb-3">What We Do</p>
-            <h2 className="text-3xl md:text-4xl font-semibold mb-4">Three services, one working fleet</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4">Towing, rentals, and construction</h2>
             <p className="text-earth-light max-w-2xl mb-12">
-              Towing, rentals, and construction share the same boats, barges, and people, which is
-              exactly why each one works better here than it does piecemeal.
+              The same fleet covers all three. Rent a barge on its own, hire a tow, or have our crews build the job start to finish.
             </p>
           </Reveal>
           <div className="grid md:grid-cols-3 gap-7">
@@ -319,16 +316,13 @@ export default function HomePage() {
             <Reveal>
               <p className="section-label mb-3">The Signature Package</p>
               <h2 className="text-3xl md:text-4xl font-semibold mb-5">
-                Spud barge. Long-reach excavator. Tug delivery. One quote.
+                Spud barge, excavator, and tug delivery in one quote
               </h2>
               <p className="text-earth-light leading-relaxed mb-4 max-w-xl">
-                Most yards rent you a bare barge and leave you hunting for a tug and a machine.
-                We quote the platform, the iron on its deck, and the tow to your job site in one
-                number, because all three live at our dock in Larose.
+                Most rental yards rent you a bare barge and leave you to find a tug and a machine. We own all three, so we quote them together: the barge, the excavator on deck, and the tow to your site.
               </p>
               <p className="text-earth-light leading-relaxed mb-7 max-w-xl">
-                It is the working spread South Louisiana jobs actually need, from dredge support
-                to bulkhead lines, and it comes from one yard instead of three vendors.
+                Contractors use this setup for dredge support, bulkhead lines, dock demolition, and pile work all over South Louisiana.
               </p>
               <div>
                 <Link href="/services/spud-barge-rental-louisiana" className="btn-primary">
@@ -345,7 +339,7 @@ export default function HomePage() {
         <div className="container-wide">
           <Reveal>
             <p className="section-label mb-3">Who We Work With</p>
-            <h2 className="text-3xl md:text-4xl font-semibold mb-12">Built for the people who work this coast</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-12">Who we work for</h2>
           </Reveal>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-9">
             {industries.map((ind, i) => (
@@ -388,8 +382,7 @@ export default function HomePage() {
             <p className="section-label mb-3">On the Water</p>
             <h2 className="text-3xl md:text-4xl font-semibold mb-4">The working fleet</h2>
             <p className="text-earth-light max-w-2xl mb-12">
-              Real equipment on real jobs across Lafourche and Terrebonne Parishes. No stock
-              photos, no borrowed boats.
+              Our boats, barges, and machines on jobs around Lafourche and Terrebonne Parishes.
             </p>
           </Reveal>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -420,14 +413,10 @@ export default function HomePage() {
                 When you call, you get the person who runs the boats
               </h2>
               <p className="text-earth-light leading-relaxed mb-4">
-                Melancon Marine is owned and run by {site.owner} out of {site.city}, on the water
-                this fleet works every week. There is no dispatch queue between you and a
-                decision: scope, equipment, timing, and price get settled in one conversation
-                with someone who knows where every boat is.
+                Melancon Marine is owned and run by {site.owner} out of {site.city}. When you call, you&apos;re talking to the person who runs the fleet, so decisions about scope, equipment, timing, and price get made fast.
               </p>
               <p className="text-earth-light leading-relaxed mb-7">
-                That is the whole model: a working fleet, local water knowledge, and a straight
-                answer, whether the job is a statewide mobilization or a camp dock across the bayou.
+                Whether it&apos;s a statewide mobilization or a camp dock across the bayou, you&apos;ll get a straight answer about what we can do and what it will cost.
               </p>
               <Link href="/about" className="btn-outline">About Melancon Marine</Link>
             </Reveal>
@@ -455,7 +444,7 @@ export default function HomePage() {
             <p className="text-earth-light max-w-3xl leading-relaxed mb-8">
               From Larose the fleet runs Bayou Lafourche south to Port Fourchon, west along the
               Intracoastal to Houma and Morgan City, and out to coastal job sites across the
-              state. If a tug, barge, or airboat can reach it, it is in our service area.
+              state. If a tug, barge, or airboat can get there, we can work there.
             </p>
             <div className="flex flex-wrap gap-2">
               {serviceAreas.map((a) => (

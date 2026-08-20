@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { DM_Sans, Fraunces, JetBrains_Mono } from 'next/font/google'
+import { DM_Sans, Source_Serif_4, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -11,9 +11,9 @@ const dmSans = DM_Sans({
   display: 'swap',
 })
 
-const fraunces = Fraunces({
+const displaySerif = Source_Serif_4({
   subsets: ['latin'],
-  variable: '--font-fraunces',
+  variable: '--font-display',
   display: 'swap',
 })
 
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${fraunces.variable} ${jetbrains.variable}`}>
+    <html lang="en" className={`${dmSans.variable} ${displaySerif.variable} ${jetbrains.variable}`}>
       <body className="font-sans antialiased">
         <a href="#main" className="skip-link">Skip to main content</a>
         <Header />
