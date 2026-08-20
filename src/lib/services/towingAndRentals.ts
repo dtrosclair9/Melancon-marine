@@ -148,7 +148,7 @@ export const towingAndRentals: ServicePage[] = [
     faqs: [
       {
         q: 'What marine equipment do you rent?',
-        a: 'Spud barges (with long-reach excavators available aboard), 1,200 HP tugboats, aluminum crew boats built by Hanko’s with twin Yamaha outboards, and airboats. Equipment rents individually or as a combined spread, and the fleet is expanding.',
+        a: "Spud barges (with long-reach excavators available aboard), 1,200 HP tugboats, aluminum crew boats built by Hanko's with twin Yamaha outboards, and airboats. Equipment rents individually or as a combined spread, and the fleet is expanding.",
       },
       {
         q: 'How much does marine equipment rental cost?',
@@ -201,7 +201,7 @@ export const towingAndRentals: ServicePage[] = [
     specChips: ['2× SPUD BARGES', 'EXCAVATORS ABOARD', 'TUG DELIVERY', 'STATEWIDE'],
     whyUs: [
       {
-        heading: 'The package nobody else quotes',
+        heading: 'The package, not the pieces',
         body: 'Most yards rent you a bare barge and wish you luck finding a tug. We quote the barge, the excavator on deck, and the tow to your job site in one number, because we own all three. That is the difference between renting equipment and mobilizing a job.',
       },
       {

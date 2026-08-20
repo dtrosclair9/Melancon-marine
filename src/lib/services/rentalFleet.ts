@@ -199,7 +199,7 @@ export const rentalFleet: ServicePage[] = [
       },
       {
         heading: 'Local water, local grass',
-        body: 'Marsh running is a learned skill: water levels change daily, and the difference between a clean run and a stuck boat is knowing this week’s conditions. We run these marshes year-round from Larose and plan routes accordingly.',
+        body: "Marsh running is a learned skill: water levels change daily, and the difference between a clean run and a stuck boat is knowing this week's conditions. We run these marshes year-round from Larose and plan routes accordingly.",
       },
       {
         heading: 'Part of the full spread',

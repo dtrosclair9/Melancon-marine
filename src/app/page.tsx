@@ -11,7 +11,7 @@ import { serviceBuckets } from '@/lib/services'
 export const metadata: Metadata = {
   title: 'Melancon Marine | Towing, Rentals & Marine Construction LA',
   description:
-    'Tug and barge towing, spud barge and crew boat rentals, airboat spraying, and marine construction from Larose, LA, half an hour from Port Fourchon. (985) 691-4591.',
+    'Tug and barge towing, spud barge and crew boat rentals, airboat spraying, and marine construction from Larose, LA, near Port Fourchon. (985) 691-4591.',
   alternates: { canonical: BASE_URL },
   openGraph: {
     title: 'Melancon Marine | Towing, Rentals & Marine Construction in Louisiana',
@@ -79,10 +79,10 @@ const processSteps = [
 ]
 
 const galleryPhotos = [
-  { src: '/images/tug-transport-lowboy.jpg', alt: 'Melancon Marine tugboat in transport on a lowboy trailer in South Louisiana' },
+  { src: '/images/tug-pushing-spud-barge.jpg', alt: 'Melancon Marine tug pushing a spud barge along a Louisiana waterway' },
   { src: '/images/long-reach-excavator-marsh.jpg', alt: 'Long-reach excavator working a marsh shoreline in coastal Louisiana' },
   { src: '/images/airboat-crew-boat-boathouse.jpg', alt: 'Airboat and aluminum crew boat staged in the boathouse at Larose' },
-  { src: '/images/bayou-waterfront-spud-barge.jpg', alt: 'Working waterfront on Bayou Lafourche with barge and tug' },
+  { src: '/images/excavator-hopper-barge.jpg', alt: 'Excavator working from a hopper barge on a South Louisiana job' },
   { src: '/images/marsh-mat-platform.jpg', alt: 'Timber mat platform staged for marsh construction work' },
   { src: '/images/crew-boat-deck.jpg', alt: 'Crew boat deck and cabin at the Melancon Marine dock' },
 ]
@@ -328,7 +328,7 @@ export default function HomePage() {
               </p>
               <p className="text-earth-light leading-relaxed mb-7 max-w-xl">
                 It is the working spread South Louisiana jobs actually need, from dredge support
-                to bulkhead lines, and nobody else in the region packages it.
+                to bulkhead lines, and it comes from one yard instead of three vendors.
               </p>
               <div>
                 <Link href="/services/spud-barge-rental-louisiana" className="btn-primary">

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    'Tug and barge towing, spud barge and crew boat rentals, airboat spraying, and marine construction from Larose, LA, half an hour from Port Fourchon. (985) 691-4591.',
+    'Tug and barge towing, spud barge and crew boat rentals, airboat spraying, and marine construction from Larose, LA, near Port Fourchon. (985) 691-4591.',
   authors: [{ name: site.name }],
   openGraph: {
     type: 'website',

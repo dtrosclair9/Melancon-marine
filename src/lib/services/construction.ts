@@ -177,7 +177,7 @@ export const construction: ServicePage[] = [
     areaServed: ['Louisiana', 'Lafourche Parish', 'Terrebonne Parish', 'Barataria Basin'],
     gallery: [
       { src: '/images/airboat-marsh.jpg', alt: 'Airboat working through thick Louisiana marsh vegetation' },
-      { src: '/images/marsh-dredge-pipe.jpg', alt: 'Heavy vegetation growth along a South Louisiana canal edge' },
+      { src: '/images/airboat-parked.jpg', alt: 'Melancon Marine spray airboat staged and ready in Larose' },
       { src: '/images/barge-deck-marsh.jpg', alt: 'Water hyacinth and marsh growth beside a barge deck in Louisiana' },
     ],
   },
@@ -187,7 +187,7 @@ export const construction: ServicePage[] = [
     h1: 'Marine Services in Port Fourchon, LA',
     title: 'Marine Services in Port Fourchon, LA',
     description:
-      'Tugs, crew boats, barges, and marine support for the Port Fourchon corridor, staged half an hour up LA-1 in Larose. Towing, rentals, and construction. (985) 691-4591.',
+      'Tugs, crew boats, barges, and marine support for the Port Fourchon corridor, staged half an hour away in Larose. Towing, rentals, construction. (985) 691-4591.',
     heroImage: '/images/bayou-waterfront-spud-barge.jpg',
     heroAlt: 'Working waterfront with barge and marine equipment on Bayou Lafourche near Port Fourchon',
     kicker: 'The Fourchon Corridor',
@@ -216,7 +216,7 @@ export const construction: ServicePage[] = [
     ],
     included: [
       { title: 'Tug & barge support', detail: 'Shifts, tows, and equipment moves into and around the port complex.' },
-      { title: 'Crew boat runs', detail: 'Personnel and light cargo moved along the corridor on Hanko’s-built aluminum boats.' },
+      { title: 'Crew boat runs', detail: "Personnel and light cargo moved along the corridor on Hanko's-built aluminum boats." },
       { title: 'Barge rentals on the corridor', detail: 'Spud barges with excavators, staged half an hour from the port.' },
       { title: 'Waterside construction', detail: 'Pile driving, bulkheads, and dock work for corridor facilities.' },
       { title: 'Marsh access', detail: 'Airboat support for pipelines and infrastructure in the surrounding wetlands.' },
@@ -225,7 +225,7 @@ export const construction: ServicePage[] = [
     localContext: {
       heading: 'Working the LA-1 corridor',
       body: [
-        'Port Fourchon sits at the bottom of Lafourche Parish, where LA-1 and Bayou Lafourche run side by side to the Gulf, and it services a major share of deepwater Gulf energy activity. Everything that reaches the port moves down that single corridor, which makes staging position the most practical fact about any support company: equipment based on the corridor mobilizes in minutes, while equipment based across the region mobilizes in days.',
+        'Port Fourchon sits at the bottom of Lafourche Parish, where LA-1 and Bayou Lafourche run side by side to the Gulf, and it services a major share of deepwater Gulf energy activity. Everything that reaches the port moves down that single corridor, which makes staging position the most practical fact about any support company: equipment staged on the corridor gets to work far sooner than equipment that has to cross the region to arrive.',
         'Melancon Marine sits in Larose, at the top of the corridor where Bayou Lafourche meets the Intracoastal Waterway. That junction lets our fleet move south to the port, west toward Houma and Morgan City, or east along the ICW without repositioning. For corridor operators, it means a tug, barge, or crew boat is a same-day conversation, and a full spread of platform, iron, and personnel transport can stage from one yard with one dispatcher who answers for all of it.',
       ],
     },
@@ -238,7 +238,7 @@ export const construction: ServicePage[] = [
       },
       {
         q: 'How fast can you mobilize equipment to Port Fourchon?',
-        a: 'Larose to the port is a short run by the corridor, so mobilization is measured in hours for most equipment, not days. Exact timing depends on the equipment, water traffic, and bridge schedules, so call with the job and we will give you a real answer for that day.',
+        a: 'Larose to the port is a short run by the corridor, so mobilization is quick for most equipment. Exact timing depends on the equipment, water traffic, and bridge schedules, so call with the job and we will give you a real answer for that day.',
       },
       {
         q: 'Do you rent barges and boats for Fourchon-area projects?',
@@ -272,7 +272,7 @@ export const construction: ServicePage[] = [
     h1: 'Bulkhead & Dock Construction in Houma, LA',
     title: 'Bulkhead & Dock Construction in Houma, LA',
     description:
-      'Bulkheads, docks, and pile driving for Houma and Terrebonne Parish waterfront property. Barge-mounted equipment reaches bayou-side lots land crews cannot. Call (985) 691-4591.',
+      'Bulkheads, docks, and pile driving for Houma and Terrebonne Parish waterfront. Barge-mounted crews reach bayou-side lots land equipment cannot. (985) 691-4591.',
     heroImage: '/images/hero-bulkhead.jpg',
     heroAlt: 'Steel bulkhead lining a calm bayou bank at golden hour in South Louisiana',
     kicker: 'Hold the Bank',
