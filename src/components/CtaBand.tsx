@@ -13,7 +13,7 @@ type Props = {
  */
 export default function CtaBand({
   heading = 'Put the fleet to work',
-  body = 'Call with the job, the location, and the dates for rates and availability.',
+  body = 'Call (985) 691-4591 for rates, availability, and scheduling.',
 }: Props) {
   return (
     <section className="bg-ink">

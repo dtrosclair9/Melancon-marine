@@ -75,16 +75,16 @@ const fleet = [
 
 const values = [
   {
-    title: 'Straight answers',
-    body: "We tell you the scope, price, and schedule plainly, including when our equipment isn't the right fit for your job.",
+    title: 'Clear quotes',
+    body: 'Scope, price, and schedule go in writing before work starts.',
   },
   {
-    title: 'The fleet is ours',
+    title: 'We own our equipment',
     body: 'We own what we run and we maintain it ourselves. When we commit to a date, the equipment behind that date is ours.',
   },
   {
     title: 'Local water knowledge',
-    body: 'Bayou Lafourche, the ICW, and the marshes between them are home water. We deal with the water levels, bridge schedules, and soft banks here every week.',
+    body: 'Bayou Lafourche, the ICW, and the marshes between them are where the fleet works. We deal with the water levels, bridge schedules, and soft banks here every week.',
   },
 ]
 
@@ -95,7 +95,7 @@ export default function AboutPage() {
       <PageHero
         h1="An Owner-Operated Fleet on Bayou Lafourche"
         kicker="About Melancon Marine"
-        intro="Towing, rentals, and marine construction from Larose, Louisiana, run by the person who answers the phone."
+        intro="Towing, rentals, and marine construction from Larose, Louisiana, owned and operated by Alex Melancon."
         image="/images/bayou-waterfront-spud-barge.jpg"
         imageAlt="The working waterfront on Bayou Lafourche in Larose, Louisiana"
         crumbs={[{ href: '/about', label: 'About' }]}
@@ -108,7 +108,7 @@ export default function AboutPage() {
             <Reveal>
               <p className="section-label mb-3">The Company</p>
               <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-                Built around the water, not the other way around
+                A working fleet on Bayou Lafourche
               </h2>
               <div className="space-y-5 text-earth-light leading-relaxed">
                 <p>
@@ -195,7 +195,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-semibold mb-6">Larose, Louisiana</h2>
               <div className="space-y-5 text-earth-light leading-relaxed">
                 <p>
-                  Larose is a working town on a working bayou. Shrimp boats, crew boats, and tows share the water here every day, and most of the marine trades in the parish are within a few miles of our dock.
+                  Shrimp boats, crew boats, and tows share Bayou Lafourche here every day, and most of the marine trades in the parish are within a few miles of our dock.
                 </p>
                 <p>
                   From this stretch of Bayou Lafourche, the fleet reaches Port Fourchon to the

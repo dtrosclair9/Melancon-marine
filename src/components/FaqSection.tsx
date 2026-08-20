@@ -30,7 +30,7 @@ export default function FaqSection({ faqs, heading = 'Frequently Asked Questions
       {emitSchema && <JsonLd data={schema} />}
       <div className="container-wide">
         <Reveal>
-          <p className="section-label mb-3">Straight Answers</p>
+          <p className="section-label mb-3">Common Questions</p>
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">{heading}</h2>
           {intro && <p className="text-earth-light max-w-2xl mb-10">{intro}</p>}
           {!intro && <div className="mb-10" />}

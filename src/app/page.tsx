@@ -62,15 +62,14 @@ const industries = [
 const processSteps = [
   {
     title: 'Call with the job',
-    detail: 'Tell us the work, the water, and the dates. You talk to the people who run the fleet, not a call center.',
+    detail: 'Tell us what the job is, where it is, and when it needs to happen.',
   },
-  {
-    title: 'Get a straight scope',
+  { title: 'Get a scope and price',
     detail: 'We match equipment and crew to the job, flag the site problems early, and quote it clearly.',
   },
   {
     title: 'The fleet mobilizes',
-    detail: 'Our own tugs deliver our own barges and equipment, so the schedule is ours to keep.',
+    detail: 'Our own tugs deliver our own barges and equipment, so we control the schedule.',
   },
   {
     title: 'The job gets done',
@@ -106,19 +105,19 @@ const homeFaqs = [
   },
   {
     q: 'What areas do you serve?',
-    a: 'Lafourche and Terrebonne Parishes are home water: Larose, Cut Off, Galliano, Golden Meadow, Port Fourchon, Houma, and Grand Isle. The fleet works job sites across South Louisiana wherever the ICW and connecting waterways reach.',
+    a: 'Lafourche and Terrebonne Parishes are our home area: Larose, Cut Off, Galliano, Golden Meadow, Port Fourchon, Houma, and Grand Isle. The fleet works job sites across South Louisiana wherever the ICW and connecting waterways reach.',
   },
   {
     q: 'How do I get a quote?',
     a: 'Call (985) 691-4591 or send the request form on our contact page with the job, the location, and the dates. Quotes are written and itemized, and if our equipment is not the right fit for the job, we will say so.',
   },
   {
-    q: 'Can you handle a full project, not just one piece of it?',
+    q: 'Can you handle a full project from start to finish?',
     a: 'Yes. We can supply the barge, the excavator on it, the tug that positions it, the crew boat that moves your people, and the construction crew that does the work, all on the same schedule.',
   },
   {
     q: 'Do you work with homeowners, or only companies?',
-    a: 'Both. The same fleet that supports commercial and coastal work builds bulkheads, docks, and pilings for waterfront homeowners and camp owners, and sprays private canals and leases. No job is too small to get a straight answer.',
+    a: 'Both. Along with commercial work, we build bulkheads, docks, and pilings for waterfront homeowners and camp owners, and we spray private canals and leases. Small jobs get quoted the same as big ones.',
   },
   {
     q: 'Do you broker marine equipment?',
@@ -314,12 +313,12 @@ export default function HomePage() {
           </div>
           <div className="py-14 md:py-20 px-6 sm:px-10 xl:px-16 flex flex-col justify-center">
             <Reveal>
-              <p className="section-label mb-3">The Signature Package</p>
+              <p className="section-label mb-3">Featured Rental</p>
               <h2 className="text-3xl md:text-4xl font-semibold mb-5">
                 Spud barge, excavator, and tug delivery in one quote
               </h2>
               <p className="text-earth-light leading-relaxed mb-4 max-w-xl">
-                Most rental yards rent you a bare barge and leave you to find a tug and a machine. We own all three, so we quote them together: the barge, the excavator on deck, and the tow to your site.
+                We rent spud barges bare or with a long-reach excavator already on deck, and our own tugs handle delivery. The barge, the machine, and the tow come in a single quote.
               </p>
               <p className="text-earth-light leading-relaxed mb-7 max-w-xl">
                 Contractors use this setup for dredge support, bulkhead lines, dock demolition, and pile work all over South Louisiana.
@@ -413,10 +412,10 @@ export default function HomePage() {
                 When you call, you get the person who runs the boats
               </h2>
               <p className="text-earth-light leading-relaxed mb-4">
-                Melancon Marine is owned and run by {site.owner} out of {site.city}. When you call, you&apos;re talking to the person who runs the fleet, so decisions about scope, equipment, timing, and price get made fast.
+                Melancon Marine is owned and run by {site.owner} out of {site.city}. Alex runs the boats and answers the phone, so decisions about scope, equipment, timing, and price get made fast.
               </p>
               <p className="text-earth-light leading-relaxed mb-7">
-                Whether it&apos;s a statewide mobilization or a camp dock across the bayou, you&apos;ll get a straight answer about what we can do and what it will cost.
+                Whether it&apos;s a statewide mobilization or a camp dock across the bayou, we can tell you quickly what we can do and what it will cost.
               </p>
               <Link href="/about" className="btn-outline">About Melancon Marine</Link>
             </Reveal>
@@ -459,7 +458,7 @@ export default function HomePage() {
       <FaqSection
         faqs={homeFaqs}
         heading="Questions we hear before the first job"
-        intro="Straight answers about the fleet, the coverage area, and how the work gets quoted."
+        intro="Answers about the fleet, the coverage area, and how work gets quoted."
       />
 
       <CtaBand />

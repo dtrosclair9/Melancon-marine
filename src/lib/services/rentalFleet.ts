@@ -30,8 +30,8 @@ export const rentalFleet: ServicePage[] = [
         body: 'Crew boats usually work alongside a barge or a tug. We can quote the boat, the barge, and the tow together.',
       },
       {
-        heading: "We'll tell you what fits",
-        body: "Crew size, gear, and run distance decide which boat works. Tell us what a normal day looks like on your job and we'll tell you whether our boats fit it and how to set up the rental.",
+        heading: 'Matched to the job',
+        body: "Crew size, gear, and run distance decide which boat works. Tell us what a normal day looks like on your job and we can confirm which boat fits and how to set up the rental.",
       },
     ],
     included: [
@@ -61,7 +61,7 @@ export const rentalFleet: ServicePage[] = [
       },
       {
         q: 'How many people can your crew boats carry?',
-        a: "It depends on the boat, the gear aboard, and the kind of run, so we confirm capacity against your specific job instead of quoting one number for everything. Tell us your crew size and daily schedule and we'll tell you what the boats can do.",
+        a: "It depends on the boat, the gear aboard, and the kind of run, so we confirm capacity against your specific job before quoting it. Tell us your crew size and daily schedule and we'll tell you what the boats can do.",
       },
       {
         q: 'Can your crew boats work shallow bayous and marsh edges?',
@@ -69,7 +69,7 @@ export const rentalFleet: ServicePage[] = [
       },
       {
         q: 'Do you serve Port Fourchon projects?',
-        a: 'Yes. Larose is about half an hour up LA-1 from Port Fourchon, and work along that corridor is a big part of what these boats do, along with jobs across Lafourche and Terrebonne Parishes.',
+        a: 'Yes. Larose is a 30-minute run down LA-1 from Port Fourchon, and work along that corridor is a big part of what these boats do, along with jobs across Lafourche and Terrebonne Parishes.',
       },
       {
         q: 'Can I rent a crew boat together with a barge or tug?',
@@ -100,26 +100,26 @@ export const rentalFleet: ServicePage[] = [
     heroAlt: 'Long-reach excavator working a marsh shoreline from a spoil bank in South Louisiana',
     kicker: 'Long-Reach Work',
     intro: [
-      "A long-reach excavator has an extended boom and stick that let it dig well past a standard machine's reach. On water jobs that means one setup can cover a full canal section or shoreline slope instead of repositioning all day.",
+      "A long-reach excavator has an extended boom and stick that let it dig well past a standard machine's reach. On water jobs that means one setup can cover a full canal section or shoreline slope without repositioning all day.",
       'We rent long-reach excavators mounted on our spud barges and delivered by our own tugs, so the machine shows up floating, positioned, and ready to dig. Common uses are canal cleaning, shoreline work, marsh restoration, and dredge support.',
     ],
     specChips: ['LONG-REACH BOOM', 'BARGE-MOUNTED', 'SPUD BARGE PAIRING', 'TUG DELIVERED'],
     whyUs: [
       {
         heading: 'The machine and the barge together',
-        body: "On this coast a long-reach excavator usually needs a floating platform under it. We quote the machine, the spud barge, and the tug delivery together, so the excavator shows up ready to work instead of waiting on a separate barge and tow.",
+        body: "On this coast a long-reach excavator usually needs a floating platform under it. We quote the machine, the spud barge, and the tug delivery together, with no separate barge and tow for you to arrange.",
       },
       {
         heading: 'Sized for bayou and marsh jobs',
         body: "Extended reach matters most on narrow canals, soft banks, and marsh edges where the machine can't walk closer to the work. The barge draft is shallow, the spuds hold it steady, and the boom covers the cut from mid-channel.",
       },
       {
-        heading: 'Working machines, not lot machines',
+        heading: 'These machines work our own jobs',
         body: 'These excavators clean canals and shape shorelines on our own jobs between rentals. The crew that runs them maintains them and preps them before your rental goes out.',
       },
       {
         heading: 'Easy to scale up',
-        body: 'If the job grows, we can add a second barge for material, a tug to rotate hopper barges, an airboat for spotters, or a crew boat for personnel, all from the same yard.',
+        body: 'If the job grows, we can add a second barge for material, a tug to rotate hopper barges, an airboat for spotters, or a crew boat for personnel.',
       },
     ],
     included: [
@@ -161,7 +161,7 @@ export const rentalFleet: ServicePage[] = [
       },
       {
         q: 'How does the excavator get to a site with no road access?',
-        a: "By water, on our barge, behind our tug. Sites a lowboy can't reach are the reason this package exists.",
+        a: "The machine loads on our barge and our tug tows it in. Water delivery is the point of the package for sites without road access.",
       },
     ],
     related: [
@@ -188,8 +188,8 @@ export const rentalFleet: ServicePage[] = [
     heroAlt: 'Airboat crossing a shallow Louisiana marsh flat at golden hour',
     kicker: 'Marsh Access',
     intro: [
-      "A lot of coastal Louisiana is water too shallow for a boat and ground too soft to drive on. That's the terrain our airboats cover. We run two working airboats out of Larose for pipeline and right-of-way support, survey crews, environmental work, and crew transport into the marsh.",
-      "These are work boats, not tour boats. They're rigged to carry people and equipment, and they often serve as the access leg of a bigger job alongside our barges and excavators.",
+      "Much of coastal Louisiana is too shallow for a regular boat and too soft to drive on. Our airboats cover that terrain. We run two working airboats out of Larose for pipeline and right-of-way support, survey crews, environmental work, and crew transport into the marsh.",
+      "The boats are rigged for work, carrying crews and equipment, and they often serve as the access leg of a bigger job alongside our barges and excavators.",
     ],
     specChips: ['2× AIRBOATS', 'MARSH ACCESS', 'ROW SUPPORT', 'CREW + GEAR'],
     whyUs: [
@@ -199,15 +199,15 @@ export const rentalFleet: ServicePage[] = [
       },
       {
         heading: 'We run these marshes year-round',
-        body: "Water levels change daily out here, and the difference between a clean run and a stuck boat is knowing this week's conditions. We plan routes off current conditions, not a map.",
+        body: 'Water levels out here change daily. We run these marshes year-round and plan routes off current conditions.',
       },
       {
         heading: 'Works with the rest of the fleet',
         body: 'Airboats often spot for a barge-mounted excavator, ferry crews to a spray job, or support a survey ahead of construction. Renting from the yard that owns the rest of the equipment keeps the job coordinated.',
       },
       {
-        heading: 'Honest about conditions',
-        body: "Wind, water level, and load decide what an airboat can safely do on a given day. If conditions call for a different plan, we'll say so before your crew is standing at the launch.",
+        heading: 'Weather and water calls',
+        body: "Wind, water level, and load decide what an airboat can safely do on a given day. If conditions call for a different plan, we make that call before your crew is standing at the launch.",
       },
     ],
     included: [

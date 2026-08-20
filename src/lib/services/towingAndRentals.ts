@@ -19,7 +19,7 @@ export const towingAndRentals: ServicePage[] = [
     whyUs: [
       {
         heading: 'Based where the work is',
-        body: "Larose sits where Bayou Lafourche crosses the Intracoastal Waterway, about half an hour up LA-1 from Port Fourchon. Most of the jobs we tow for are a short run from our dock, so you're paying for the tow, not for the boat to get to you.",
+        body: "Larose sits where Bayou Lafourche crosses the Intracoastal Waterway, about half an hour up LA-1 from Port Fourchon. Most of the jobs we tow for are a short run from our dock, which keeps mobilization time and cost down.",
       },
       {
         heading: 'The right size boats for inland work',
@@ -27,7 +27,7 @@ export const towingAndRentals: ServicePage[] = [
       },
       {
         heading: 'Towing plus the equipment behind it',
-        body: "Most tows are part of a bigger job. There are piles to drive, material to move, or a dock to build. We own the barges, excavators, crew boats, and airboats too, so the tow and the equipment can come from the same place.",
+        body: "Most tows are part of a bigger job. There are piles to drive, material to move, or a dock to build. We own the barges, excavators, crew boats, and airboats too, so we can supply the equipment along with the tow.",
       },
       {
         heading: 'You talk to the person running the boats',
@@ -126,7 +126,7 @@ export const towingAndRentals: ServicePage[] = [
       },
       {
         heading: 'Set up for Louisiana water',
-        body: 'Shallow bayous, soft bottom, narrow canals, and tides that change the plan. The fleet is sized for the water down here because this is where it works every week.',
+        body: 'Shallow bayous, soft bottom, and narrow canals are normal working conditions here. The fleet is sized for this water because this is where it works every week.',
       },
     ],
     included: [
@@ -139,7 +139,7 @@ export const towingAndRentals: ServicePage[] = [
     ],
     process: [
       { title: 'Describe the job', detail: 'The work, the water, the dates, and anything unusual about the site.' },
-      { title: 'Pick the equipment', detail: 'We match equipment to the job and flag anything the site will fight you on.' },
+      { title: 'Pick the equipment', detail: 'We match equipment to the job and flag any site issues early.' },
       { title: 'We deliver', detail: 'Our tugs bring the equipment to your job site, positioned and ready.' },
       { title: 'Work and return', detail: 'Run it for the term you need. We pick it up when the job wraps.' },
     ],
@@ -148,7 +148,7 @@ export const towingAndRentals: ServicePage[] = [
     faqs: [
       {
         q: 'What marine equipment do you rent?',
-        a: "Spud barges (with long-reach excavators available on deck), 1,200 HP tugboats, aluminum crew boats built by Hanko's with twin Yamaha outboards, and airboats. Everything rents individually or as a package, and the fleet is expanding.",
+        a: "Spud barges (with long-reach excavators available on deck), 1,200 HP tugboats, aluminum crew boats built by Hanko's with twin Yamaha outboards, and airboats. Everything rents individually or as a package.",
       },
       {
         q: 'How much does marine equipment rental cost?',
@@ -213,8 +213,8 @@ export const towingAndRentals: ServicePage[] = [
         body: 'Our own pile-driving and construction crews use the same barges we rent out. The decks, spud winches, and rigging stay maintained because our own work depends on them.',
       },
       {
-        heading: 'A straight answer on fit',
-        body: "A spud barge isn't right for every job. Tell us the water depth, the bottom, and the load, and we'll tell you whether ours fit the work or whether you need something we'd have to source for you.",
+        heading: 'The right barge for the job',
+        body: "A spud barge isn't right for every job. Tell us the water depth, the bottom, and the load, and we can confirm whether ours fit the work before anything gets quoted.",
       },
     ],
     included: [
@@ -223,7 +223,7 @@ export const towingAndRentals: ServicePage[] = [
       { title: 'Tug delivery & pickup', detail: 'Our 1,200 HP tugs deliver, shift, and retrieve the barge on your schedule.' },
       { title: 'Crane & rig support', detail: 'A stable deck for pile hammers, cranes, and drilling rigs.' },
       { title: 'Dredge support duty', detail: 'Material handling and equipment staging alongside dredging operations.' },
-      { title: 'On-site shifts', detail: 'Need the barge walked down the bulkhead line? The tug that delivered it can stay.' },
+      { title: 'On-site shifts', detail: 'The tug that delivered the barge can stay to shift it along the work as the job advances.' },
     ],
     process: [
       { title: 'Scope the platform', detail: 'Water depth, load, and what sits on deck: excavator, hammer, crane, or material.' },

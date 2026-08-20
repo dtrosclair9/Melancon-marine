@@ -12,14 +12,14 @@ export const construction: ServicePage[] = [
     heroAlt: 'New timber dock construction over calm bayou water in South Louisiana',
     kicker: 'Marine Construction',
     intro: [
-      "Melancon Marine drives piles and builds bulkheads and docks across Lafourche, Terrebonne, and the surrounding parishes. We work off our own spud barges, with our own tugs and excavators, so we're not waiting on rented equipment to start your job.",
+      "Melancon Marine drives piles and builds bulkheads and docks across Lafourche, Terrebonne, and the surrounding parishes. We work off our own spud barges, with our own tugs and excavators, so jobs start without waiting on rented equipment.",
       'We build for commercial clients and for homeowners and camp owners, and we keep marsh and canals open with airboat herbicide spraying. Every job gets a written scope and a clear price after we look at the site.',
     ],
     specChips: ['PILE DRIVING', 'BULKHEADS', 'DOCKS', 'SELF-MOBILIZING FLEET'],
     whyUs: [
       {
         heading: 'The contractor owns the fleet',
-        body: "A lot of marine contractors rent the barge and hire the tug. Ours are ours. When we commit to a start date, we're not depending on another company's schedule to make it, and a weather day doesn't turn into a three-vendor rescheduling problem.",
+        body: "We drive piles from our own spud barges, moved by our own tugs. When we commit to a start date, we're not depending on another company's schedule, and a weather day doesn't turn into a three-vendor rescheduling problem.",
       },
       {
         heading: 'Pile driving from a spud barge',
@@ -31,7 +31,7 @@ export const construction: ServicePage[] = [
       },
       {
         heading: 'Docks planned around your boats',
-        body: 'Before we build a dock we ask what ties up to it, what it needs to carry, and what the water does at that spot. Then we build the height, layout, and hardware to match.',
+        body: 'Before we build a dock we ask what ties up to it, what it needs to carry, and what the water does at that spot, then build the height, layout, and hardware to match.',
       },
     ],
     included: [
@@ -44,9 +44,9 @@ export const construction: ServicePage[] = [
     ],
     process: [
       { title: 'Walk the site', detail: 'We look at the water, the bank, and the access, and listen to what you need built.' },
-      { title: 'Scope and quote', detail: 'A written scope with a clear price, and honest talk about your options.' },
+      { title: 'Scope and quote', detail: 'A written scope with a clear price, and a rundown of your options.' },
       { title: 'Mobilize', detail: 'Our own barges, tugs, and equipment arrive by water, on schedule.' },
-      { title: 'Build and clean up', detail: 'The structure goes in, the site gets cleaned, and the water is yours again.' },
+      { title: 'Build and clean up', detail: 'The structure goes in, and the site gets cleaned up before we leave.' },
     ],
     serviceArea:
       'Marine construction across Lafourche and Terrebonne Parishes and coastal Louisiana: Larose, Cut Off, Galliano, Golden Meadow, Houma, Grand Isle, Port Fourchon, and barge-accessible sites statewide.',
@@ -65,7 +65,7 @@ export const construction: ServicePage[] = [
       },
       {
         q: 'Do you work for homeowners as well as commercial clients?',
-        a: 'Both. The same crews that handle commercial and coastal work build camp docks and residential bulkheads across Lafourche and Terrebonne Parishes. No job is too small to get a straight answer and a real quote.',
+        a: 'Both. Our crews build camp docks and residential bulkheads across Lafourche and Terrebonne Parishes along with our commercial work, and small jobs get quoted the same as big ones.',
       },
       {
         q: 'How long does a bulkhead or dock project take?',
@@ -105,7 +105,7 @@ export const construction: ServicePage[] = [
     kicker: 'Vegetation Control',
     intro: [
       "Water hyacinth, giant salvinia, and other invasive plants can close off a canal in a season. We spray marsh, canals, and rights-of-way from our airboats, which reach vegetation that truck sprayers and conventional boats can't get to.",
-      "We work for landowners, camps, land managers, and pipeline operators across South Louisiana. We look at what's growing on your water, put a treatment plan together, and can set up seasonal maintenance so the water stays open year to year.",
+      "We work for landowners, camps, land managers, and pipeline operators across South Louisiana. We look at what is growing on your water, put a treatment plan together, and can set up seasonal maintenance so the water stays open year to year.",
     ],
     specChips: ['AIRBOAT APPLIED', 'MARSH + CANALS', 'ROW CORRIDORS', 'SEASONAL PROGRAMS'],
     whyUs: [
@@ -119,7 +119,7 @@ export const construction: ServicePage[] = [
       },
       {
         heading: 'Timed to the growing season',
-        body: "Aquatic vegetation treats best at certain points in the growing season, and timing has a lot to do with results. We schedule treatments when they'll do the most good, and we offer recurring maintenance so a canal cleared this year doesn't need rescuing next year.",
+        body: "Aquatic vegetation treats best at certain points in the growing season, and timing has a lot to do with results. We schedule treatments when they'll do the most good, and we offer recurring maintenance so the canal stays open next year.",
       },
       {
         heading: 'Spraying and digging, both in house',
@@ -132,10 +132,10 @@ export const construction: ServicePage[] = [
       { title: 'Right-of-way corridors', detail: 'Pipeline and utility ROW vegetation managed by airboat access.' },
       { title: 'Pond & lease management', detail: 'Camps, hunting leases, and private waters kept open and healthy.' },
       { title: 'Invasive species control', detail: 'Water hyacinth, giant salvinia, and other invaders knocked back on schedule.' },
-      { title: 'Maintenance programs', detail: 'Recurring seasonal treatment that keeps cleared water cleared.' },
+      { title: 'Maintenance programs', detail: 'Recurring seasonal treatment that keeps treated water open.' },
     ],
     process: [
-      { title: 'Look at the growth', detail: 'We identify the species, the coverage, and what the water is supposed to do.' },
+      { title: 'Look at the growth', detail: 'We identify the species, the coverage, and how the water is used.' },
       { title: 'Plan the treatment', detail: 'Product approach, timing, and passes matched to the target and season.' },
       { title: 'Run the spray', detail: 'The airboat works the water systematically, treating growth where it stands.' },
       { title: 'Follow up', detail: 'We check the knockdown and schedule maintenance before regrowth takes over.' },
@@ -145,7 +145,7 @@ export const construction: ServicePage[] = [
     faqs: [
       {
         q: 'What is airboat herbicide spraying?',
-        a: "It's aquatic vegetation control applied from an airboat. The boat carries the spray rig across marsh and shallow water that no truck or regular boat can cross, so the treatment lands on the growth instead of stopping at the bank. It's the standard way to keep Louisiana canals, marsh, and rights-of-way open.",
+        a: "It's aquatic vegetation control applied from an airboat. The boat carries the spray rig across marsh and shallow water that no truck or regular boat can cross, so the treatment lands directly on the growth. It's the standard way to keep Louisiana canals, marsh, and rights-of-way open.",
       },
       {
         q: 'What vegetation do you treat?',
@@ -161,7 +161,7 @@ export const construction: ServicePage[] = [
       },
       {
         q: 'Do you spray private canals, ponds, and hunting leases?',
-        a: 'Yes. Private landowners, camps, and lease managers are a big part of this work, along with pipeline operators and commercial land managers. No job is too small to keep a canal usable.',
+        a: 'Yes. Private landowners, camps, and lease managers are a big part of this work, along with pipeline operators and commercial land managers.',
       },
       {
         q: 'Why not just dig the vegetation out instead of spraying?',
@@ -193,21 +193,21 @@ export const construction: ServicePage[] = [
     kicker: 'The Fourchon Corridor',
     intro: [
       'Melancon Marine supports work at Port Fourchon and along the LA-1 corridor from our yard in Larose, about half an hour up the bayou. Tugs, spud barges, crew boats, airboats, and construction crews all dispatch from the same place.',
-      'For contractors and operators on the corridor, that means barge shifts, equipment moves, crew runs, and dock work can all be handled by the same fleet, staged close by instead of mobilizing from across the region.',
+      'For contractors and operators on the corridor, that means barge shifts, equipment moves, crew runs, and dock work can all be handled from our yard, with equipment staged close by instead of mobilizing from across the region.',
     ],
     specChips: ['30 MIN UP LA-1', 'TUGS + BARGES', 'CREW BOATS', 'FULL FLEET'],
     whyUs: [
       {
-        heading: 'Close, without the congestion',
-        body: "Staging in Larose puts the fleet a short run from the port by water and road, without competing for berth space inside it. When a job calls, equipment moves down the bayou instead of waiting on a slip to clear.",
+        heading: 'Close to the port',
+        body: "Staging in Larose puts the fleet a short run from the port by water and road, without competing for berth space inside it. When a job calls, equipment moves straight down the bayou.",
       },
       {
-        heading: 'This corridor is home water',
-        body: 'Bayou Lafourche and the LA-1 corridor are the water this company runs every week. Bridge schedules, traffic, and the practical timing of moving a barge down to the port are things we deal with daily, not things we look up.',
+        heading: 'We run this corridor every week',
+        body: 'Bayou Lafourche and the LA-1 corridor are the water this company runs every week. Bridge schedules, traffic, and the practical timing of moving a barge down to the port are things we deal with every week.',
       },
       {
-        heading: 'Everything dispatches from the same yard',
-        body: 'A Fourchon project might need a barge shifted today, a crew moved tomorrow, and a dock repaired next week. Tugs, barges, crew boats, airboats, and construction crews all dispatch from the same yard in Larose.',
+        heading: 'The whole fleet dispatches from Larose',
+        body: 'A Fourchon project might need a barge shifted today, a crew moved tomorrow, and a dock repaired next week. Tugs, barges, crew boats, airboats, and construction crews all dispatch from our yard in Larose.',
       },
       {
         heading: 'Sized for the inshore work',
@@ -226,7 +226,7 @@ export const construction: ServicePage[] = [
       heading: 'Working the LA-1 corridor',
       body: [
         'Port Fourchon sits at the bottom of Lafourche Parish, where LA-1 and Bayou Lafourche run side by side to the Gulf. It services a large share of deepwater Gulf energy activity, and everything that supports the port moves along that one corridor.',
-        'Larose is at the top of the corridor, where the bayou crosses the Intracoastal Waterway. From there our fleet can run south to the port, west toward Houma and Morgan City, or east along the ICW without repositioning. For corridor work, that means equipment shows up sooner, and the same dispatcher handles the tug, the barge, and the crew boat.',
+        'Larose is at the top of the corridor, where the bayou crosses the Intracoastal Waterway. From there our fleet can run south to the port, west toward Houma and Morgan City, or east along the ICW without repositioning. For corridor work, that means equipment shows up sooner, and the dispatcher handling the tug also handles the barge and the crew boat.',
       ],
     },
     serviceArea:
@@ -278,25 +278,25 @@ export const construction: ServicePage[] = [
     kicker: 'Bulkheads & Docks',
     intro: [
       "We build and replace bulkheads and docks across Houma and Terrebonne Parish. Our crews work from spud barges, so we can reach bayou-side properties that land equipment can't get to, and we don't have to tear up your yard to do it.",
-      "We're based in Larose, a short run from Houma. The same crews that handle our commercial marine work build camp docks, boat docks, and residential bulkheads, and every job gets a written price after we look at your shoreline.",
+      "We're based in Larose, a short run from Houma. Our crews build camp docks, boat docks, and residential bulkheads along with our commercial marine work, and every job gets a written price after we look at your shoreline.",
     ],
     specChips: ['BULKHEADS', 'CAMP + BOAT DOCKS', 'PILE DRIVING', 'BARGE ACCESS'],
     whyUs: [
       {
-        heading: 'Barge access changes the math',
+        heading: 'Built from the water',
         body: "A lot of Terrebonne waterfront has no practical land access for heavy equipment: tight lots, soft ground, or nothing but water on the work side. Our equipment floats to your property and works from the bayou side.",
       },
       {
         heading: 'Built for Terrebonne water',
-        body: 'Bayou Black, Bayou Blue, Little Caillou, Dulac, Chauvin, Montegut: each waterway has its own traffic, tides, and soil. We build walls and docks for the actual conditions on your stretch of water, not one spec for everywhere.',
+        body: 'Bayou Black, Bayou Blue, Little Caillou, Dulac, Chauvin, Montegut: each waterway has its own traffic, tides, and soil. We build walls and docks for the actual conditions on your stretch of water.',
       },
       {
         heading: 'The dock fits how you use it',
-        body: 'A bass boat, a shrimp boat, and a pontoon ask different things of a dock. We plan height, layout, and hardware around how you actually use the water, so the dock still works in year ten.',
+        body: 'A shrimp boat needs a different dock than a pontoon. We plan height, layout, and hardware around how you use the water, so the dock holds up over the years.',
       },
       {
-        heading: 'Straight scope, straight price',
-        body: "You get a written scope and a clear price after we look at the property. If a repair serves you better than a full replacement, we'll say so. Waterfront work is a big spend, and you should know exactly what you're buying.",
+        heading: 'Written scope and price',
+        body: "You get a written scope and a clear price after we look at the property. When a repair serves you better than a full replacement, we price both options. Waterfront work is a big spend, and you should know exactly what you are buying.",
       },
     ],
     included: [
@@ -305,7 +305,7 @@ export const construction: ServicePage[] = [
       { title: 'Boat & camp docks', detail: 'Docks, piers, and platforms built for daily Louisiana use.' },
       { title: 'Pile driving', detail: 'Timber and structural piles set from our barge-mounted rigs.' },
       { title: 'Dock demolition', detail: 'Storm-damaged and derelict structures removed clean.' },
-      { title: 'Shoreline assessment', detail: 'An honest look at what your bank needs now versus later.' },
+      { title: 'Shoreline assessment', detail: 'A look at what your bank needs now and what can wait.' },
     ],
     localContext: {
       heading: 'The Houma waterfront',
@@ -323,11 +323,11 @@ export const construction: ServicePage[] = [
       },
       {
         q: 'How do I know if my bulkhead needs to be replaced?',
-        a: "Leaning or bowing walls, soil washing out behind the wall, sinkholes near the edge, and rotted or broken piles are the common signs. Some walls can be reinforced and some have failed structurally. We'll look at yours and tell you honestly which situation you have.",
+        a: "Leaning or bowing walls, soil washing out behind the wall, sinkholes near the edge, and rotted or broken piles are the common signs. Some walls can be reinforced and some have failed structurally. We look at the wall and tell you which situation you have.",
       },
       {
         q: 'Can you build a dock or bulkhead on a property with no road access for equipment?',
-        a: "Yes. Our equipment works from spud barges on the water side, which is how camps and bayou-side lots without land access get built. If a boat can reach your property, so can our crew.",
+        a: 'Yes. Our equipment works from spud barges on the water side, which is how camps and bayou-side lots without land access get built.',
       },
       {
         q: 'When is the best time to build a bulkhead or dock in Terrebonne Parish?',
@@ -335,7 +335,7 @@ export const construction: ServicePage[] = [
       },
       {
         q: 'Do you build docks for businesses as well as homes?',
-        a: 'Yes. The same crews build residential docks, camp docks, and working commercial docks around Houma. The questions are the same either way: what ties up to it, what it carries, and what the water does at that spot.',
+        a: 'Yes. Our crews build residential docks, camp docks, and working commercial docks around Houma. Commercial docks get planned around heavier boats and loads, and the rest of the build works the same way.',
       },
       {
         q: 'Do you handle removing the old dock or bulkhead first?',

@@ -83,7 +83,7 @@ export default function ContactPage() {
                     {site.phoneDisplay}
                   </a>
                   <p className="text-sand/85 text-sm mt-3 leading-relaxed">
-                    You reach the people who run the fleet, not a call center.
+                    The fastest way to scope a job is a phone call.
                   </p>
                 </div>
               </Reveal>
