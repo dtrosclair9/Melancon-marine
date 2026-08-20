@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-earth tracking-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-ink;
+  }
+
+  /* Visible keyboard focus indicator (WCAG 2.4.7 / 2.4.11). */
+  :focus-visible {
+    outline: 2px solid theme('colors.primary.DEFAULT');
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* Skip-to-content link: hidden until keyboard-focused (WCAG 2.4.1). */
+  .skip-link {
+    @apply sr-only;
+  }
+  .skip-link:focus {
+    @apply not-sr-only fixed top-4 left-4 z-[100] bg-primary text-white font-semibold px-5 py-3 rounded shadow-lg;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-light text-white font-sans font-semibold px-6 py-3 rounded-lg transition-colors duration-200 inline-block;
+  }
+
+  .btn-outline {
+    @apply border-2 border-ink text-ink hover:bg-ink hover:text-cream font-sans font-semibold px-6 py-3 rounded-lg transition-colors duration-200 inline-block;
+  }
+
+  /* For dark navy bands */
+  .btn-light {
+    @apply bg-cream hover:bg-sand text-ink font-sans font-semibold px-6 py-3 rounded-lg transition-colors duration-200 inline-block;
+  }
+  .btn-outline-light {
+    @apply border-2 border-cream/70 text-cream hover:bg-cream hover:text-ink font-sans font-semibold px-6 py-3 rounded-lg transition-colors duration-200 inline-block;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Spec-sheet voice: mono uppercase label above headings */
+  .section-label {
+    @apply font-mono uppercase tracking-[0.2em] text-sm font-medium text-accent-dark;
+  }
+  .section-label--light {
+    @apply font-mono uppercase tracking-[0.2em] text-sm font-medium text-accent-pale;
+  }
+
+  /* Equipment spec chip: "1,200 HP" / "2× SPUD BARGES" */
+  .spec-chip {
+    @apply inline-block font-mono text-xs uppercase tracking-wider text-ink bg-sand border border-sand-dark rounded px-2.5 py-1;
+  }
+
+  /* Thin double keel-line divider */
+  .keel-rule {
+    @apply relative h-[7px] w-24;
+    border-top: 2px solid theme('colors.primary.DEFAULT');
+    border-bottom: 1px solid theme('colors.accent.DEFAULT');
+  }
+
+  /* Gentle vertical bob for the scroll tug (outer wrapper handles x) */
+  .boat-bob {
+    animation: boat-bob 3.2s ease-in-out infinite;
+  }
+  @keyframes boat-bob {
+    0%, 100% { transform: translateY(0) rotate(-0.6deg); }
+    50% { transform: translateY(-7px) rotate(0.8deg); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .boat-bob {
+      animation: none;
+    }
+  }
+}
