@@ -91,8 +91,8 @@ export const towingAndRentals: ServicePage[] = [
     serviceType: 'Marine towing and transportation',
     areaServed: ['Louisiana', 'Lafourche Parish', 'Terrebonne Parish', 'Port Fourchon', 'Houma', 'Morgan City'],
     gallery: [
+      { src: '/images/tug-pushing-icw.jpg', alt: 'Melancon Marine tugboat pushing a vessel on the Intracoastal Waterway in Louisiana' },
       { src: '/images/tug-transport-lowboy.jpg', alt: 'Melancon Marine tugboat in transport on a lowboy trailer in South Louisiana' },
-      { src: '/images/bayou-waterfront-spud-barge.jpg', alt: 'Working waterfront on Bayou Lafourche with barge and tug traffic' },
       { src: '/images/tug-pushing-spud-barge.jpg', alt: 'Tugboat pushing a spud barge along a Louisiana waterway' },
     ],
   },

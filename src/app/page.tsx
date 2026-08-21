@@ -78,7 +78,7 @@ const processSteps = [
 ]
 
 const galleryPhotos = [
-  { src: '/images/tug-pushing-spud-barge.jpg', alt: 'Melancon Marine tug pushing a spud barge along a Louisiana waterway' },
+  { src: '/images/tug-transport-lowboy.jpg', alt: 'Melancon Marine tugboat in transport on a lowboy trailer in South Louisiana' },
   { src: '/images/long-reach-excavator-marsh.jpg', alt: 'Long-reach excavator working a marsh shoreline in coastal Louisiana' },
   { src: '/images/airboat-crew-boat-boathouse.jpg', alt: 'Airboat and aluminum crew boat staged in the boathouse at Larose' },
   { src: '/images/excavator-hopper-barge.jpg', alt: 'Excavator working from a hopper barge on a South Louisiana job' },
@@ -219,10 +219,10 @@ export default function HomePage() {
             <Reveal className="relative">
               <div className="relative rounded-xl overflow-hidden shadow-2xl border border-line">
                 <Image
-                  src="/images/tug-transport-lowboy.jpg"
-                  alt="Melancon Marine tugboat arriving by lowboy trailer in South Louisiana"
+                  src="/images/tug-pushing-icw.jpg"
+                  alt="Melancon Marine tugboat pushing a vessel down the Intracoastal Waterway in South Louisiana"
                   width={2000}
-                  height={1500}
+                  height={1582}
                   priority
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="w-full h-auto object-cover"
