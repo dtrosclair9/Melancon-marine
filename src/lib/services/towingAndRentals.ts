@@ -8,8 +8,8 @@ export const towingAndRentals: ServicePage[] = [
     title: 'Tug & Barge Towing in Louisiana',
     description:
       'Inland tug and barge towing and marine transportation on the ICW, Bayou Lafourche, and the Port Fourchon corridor. Two 1,200 HP tugs based in Larose, LA.',
-    heroImage: '/images/hero-towing.jpg',
-    heroAlt: 'Push tugboat moving a loaded deck barge down a South Louisiana bayou at dusk',
+    heroImage: '/images/tug-transport-lowboy.jpg',
+    heroAlt: 'Melancon Marine tugboat being transported by lowboy trailer in South Louisiana',
     kicker: 'Tug & Barge Towing',
     intro: [
       "Melancon Marine runs two 1,200 HP tugboats out of Larose, on Bayou Lafourche. We tow and shift barges on the Intracoastal Waterway, Bayou Lafourche, and the canals across Lafourche and Terrebonne Parishes, and we move equipment down the LA-1 corridor to Port Fourchon.",
@@ -103,8 +103,8 @@ export const towingAndRentals: ServicePage[] = [
     title: 'Marine Equipment Rentals in Louisiana',
     description:
       'Spud barges, tugboats, crew boats, airboats, and long-reach excavators for rent from Larose, LA. Delivered by our own tugs to job sites across South Louisiana.',
-    heroImage: '/images/hero-fleet.jpg',
-    heroAlt: 'Marine fleet staging dock in South Louisiana with spud barge, crew boats, and tugboat at golden hour',
+    heroImage: '/images/airboat-crew-boat-boathouse.jpg',
+    heroAlt: 'Airboat and aluminum crew boat staged under the Melancon Marine boathouse in Larose Louisiana',
     kicker: 'The Rental Fleet',
     intro: [
       "Melancon Marine rents marine equipment out of Larose: spud barges with excavators on deck, 1,200 HP tugboats, aluminum crew boats built by Hanko's, and airboats. We deliver rentals to your job site with our own tugs.",
@@ -191,8 +191,8 @@ export const towingAndRentals: ServicePage[] = [
     title: 'Spud Barge Rental in Louisiana',
     description:
       'Spud barge rentals with long-reach excavators available aboard, delivered by our own tugs from Larose, LA. Serving marine contractors and dredging crews statewide.',
-    heroImage: '/images/hero-pile-driving.jpg',
-    heroAlt: 'Spud barge with crane working on a South Louisiana bayou at golden hour',
+    heroImage: '/images/excavator-barge-bayou.jpg',
+    heroAlt: 'Excavator working from a spud barge on a South Louisiana bayou',
     kicker: 'The Working Platform',
     intro: [
       'A spud barge is a deck barge with steel spuds that drop to the bottom and hold it in place without anchors. It gives excavators, cranes, and pile-driving rigs a stable platform, it holds position in current, and it can be repositioned in minutes as the work moves.',

@@ -71,8 +71,8 @@ export default function ServicesIndexPage() {
         h1="Marine Services in South Louisiana"
         kicker="Towing · Rentals · Construction"
         intro="Towing, rentals, and construction out of Larose. Every service below has its own page with details, coverage area, and answers to common questions."
-        image="/images/hero-fleet.jpg"
-        imageAlt="Melancon Marine fleet staged on a South Louisiana dock at golden hour"
+        image="/images/excavator-hopper-barge.jpg"
+        imageAlt="Excavator loading a hopper barge on a South Louisiana job site"
         crumbs={[{ href: '/services', label: 'Services' }]}
       />
 

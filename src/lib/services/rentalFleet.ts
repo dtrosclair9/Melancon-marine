@@ -184,8 +184,8 @@ export const rentalFleet: ServicePage[] = [
     title: 'Airboat Rental & Services in Louisiana',
     description:
       'Working airboat rentals for marsh access, pipeline and ROW support, surveys, and wetland crew transport across South Louisiana, based in Larose on Bayou Lafourche.',
-    heroImage: '/images/hero-airboat.jpg',
-    heroAlt: 'Airboat crossing a shallow Louisiana marsh flat at golden hour',
+    heroImage: '/images/airboat-parked.jpg',
+    heroAlt: 'Melancon Marine working airboat staged at the yard in Larose Louisiana',
     kicker: 'Marsh Access',
     intro: [
       "Much of coastal Louisiana is too shallow for a regular boat and too soft to drive on. Our airboats cover that terrain. We run two working airboats out of Larose for pipeline and right-of-way support, survey crews, environmental work, and crew transport into the marsh.",

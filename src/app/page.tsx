@@ -304,8 +304,8 @@ export default function HomePage() {
         <div className="grid lg:grid-cols-2">
           <div className="relative min-h-[320px] lg:min-h-0">
             <Image
-              src="/images/hero-pile-driving.jpg"
-              alt="Spud barge with crane working a South Louisiana bayou at golden hour"
+              src="/images/excavator-hopper-barge.jpg"
+              alt="Excavator loading a hopper barge from a spud barge in South Louisiana"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"

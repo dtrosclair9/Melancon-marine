@@ -22,8 +22,8 @@ export const serviceBuckets = [
     title: 'Marine Towing & Transportation',
     blurb:
       'Tug and barge towing on the ICW, Bayou Lafourche, and the Fourchon corridor, with two 1,200 HP tugs and equipment brokering of all types.',
-    image: '/images/hero-towing.jpg',
-    imageAlt: 'Tugboat pushing a barge down a South Louisiana bayou at dusk',
+    image: '/images/tug-pushing-spud-barge.jpg',
+    imageAlt: 'Melancon Marine tugboat pushing a spud barge on a Louisiana waterway',
     chips: ['2× 1,200 HP TUGS', 'ICW + BAYOUS', 'BROKERING'],
   },
   {
@@ -31,8 +31,8 @@ export const serviceBuckets = [
     title: 'Equipment Rentals',
     blurb:
       "Spud barges with long-reach excavators, tugboats, Hanko's-built crew boats, and airboats, delivered to your job site by our own tugs.",
-    image: '/images/hero-fleet.jpg',
-    imageAlt: 'Marine equipment fleet staged at a South Louisiana dock',
+    image: '/images/airboat-crew-boat-boathouse.jpg',
+    imageAlt: 'Airboat and crew boat staged under the boathouse at the Melancon Marine yard',
     chips: ['SPUD BARGES', 'CREW BOATS', 'AIRBOATS'],
   },
   {
@@ -40,8 +40,8 @@ export const serviceBuckets = [
     title: 'Marine Construction',
     blurb:
       'Pile driving, bulkheads, and dock building from our own floating equipment, plus airboat herbicide spraying for marsh and canals.',
-    image: '/images/hero-dock-building.jpg',
-    imageAlt: 'New timber dock construction over calm Louisiana bayou water',
+    image: '/images/marsh-mat-platform.jpg',
+    imageAlt: 'Timber platform construction over the water on a South Louisiana job site',
     chips: ['PILE DRIVING', 'BULKHEADS', 'DOCKS'],
   },
 ]

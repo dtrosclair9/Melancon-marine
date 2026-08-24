@@ -8,8 +8,8 @@ export const construction: ServicePage[] = [
     title: 'Marine Construction in Louisiana',
     description:
       'Pile driving, bulkheads, dock building, and marsh spraying from a contractor with its own tugs, spud barges, and excavators. Based in Larose, LA. (985) 691-4591.',
-    heroImage: '/images/hero-dock-building.jpg',
-    heroAlt: 'New timber dock construction over calm bayou water in South Louisiana',
+    heroImage: '/images/marsh-mat-platform.jpg',
+    heroAlt: 'Timber mat platform built over the water on a South Louisiana marine construction site',
     kicker: 'Marine Construction',
     intro: [
       "Melancon Marine drives piles and builds bulkheads and docks across Lafourche, Terrebonne, and the surrounding parishes. We work off our own spud barges, with our own tugs and excavators, so jobs start without waiting on rented equipment.",
