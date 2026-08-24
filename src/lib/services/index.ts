@@ -43,7 +43,7 @@ export const serviceBuckets = [
       'Pile driving, bulkheads, and dock building from our own floating equipment, plus airboat herbicide spraying for marsh and canals.',
     image: '/images/pile-driving-barge.jpg',
     imageAlt: 'Long-reach excavator and pile-driving rig working from a barge in South Louisiana',
-    imagePosition: 'object-[center_65%]',
+    imagePosition: 'object-[center_88%]',
     chips: ['PILE DRIVING', 'BULKHEADS', 'DOCKS'],
   },
 ]
