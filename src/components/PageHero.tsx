@@ -11,6 +11,8 @@ type Props = {
   intro?: string
   image: string
   imageAlt: string
+  /** Tailwind object-position class, for photos whose subject is not centered */
+  imagePosition?: string
   crumbs: Crumb[]
 }
 
@@ -19,7 +21,7 @@ type Props = {
  * gradient wash), kicker + H1 in cream, breadcrumb trail, and auto-emitted
  * BreadcrumbList JSON-LD.
  */
-export default function PageHero({ h1, kicker, intro, image, imageAlt, crumbs }: Props) {
+export default function PageHero({ h1, kicker, intro, image, imageAlt, imagePosition = 'object-center', crumbs }: Props) {
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -44,7 +46,7 @@ export default function PageHero({ h1, kicker, intro, image, imageAlt, crumbs }:
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className={`object-cover ${imagePosition}`}
         />
         {/* Bottom-up scrim for headline legibility */}
         <div className="absolute inset-0 bg-gradient-to-t from-ink-deep/90 via-ink-deep/45 to-ink-deep/15" aria-hidden="true" />

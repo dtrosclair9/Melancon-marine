@@ -103,8 +103,9 @@ export const towingAndRentals: ServicePage[] = [
     title: 'Marine Equipment Rentals in Louisiana',
     description:
       'Spud barges, tugboats, crew boats, airboats, and long-reach excavators for rent from Larose, LA. Delivered by our own tugs to job sites across South Louisiana.',
-    heroImage: '/images/airboat-crew-boat-boathouse.jpg',
-    heroAlt: 'Airboat and aluminum crew boat staged under the Melancon Marine boathouse in Larose Louisiana',
+    heroImage: '/images/tug-pushing-spud-barge.jpg',
+    heroAlt: 'Melancon Marine tugboat pushing a spud barge on a South Louisiana waterway',
+    heroPosition: 'object-[center_60%]',
     kicker: 'The Rental Fleet',
     intro: [
       "Melancon Marine rents marine equipment out of Larose: spud barges with excavators on deck, 1,200 HP tugboats, aluminum crew boats built by Hanko's, and airboats. We deliver rentals to your job site with our own tugs.",

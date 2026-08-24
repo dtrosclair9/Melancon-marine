@@ -56,6 +56,7 @@ export default async function ServicePage({ params }: Props) {
       telephone: site.phoneRaw,
       address: {
         '@type': 'PostalAddress',
+        streetAddress: site.street,
         addressLocality: site.city,
         addressRegion: site.state,
         addressCountry: 'US',
@@ -72,6 +73,7 @@ export default async function ServicePage({ params }: Props) {
         kicker={page.kicker}
         image={page.heroImage}
         imageAlt={page.heroAlt}
+        imagePosition={page.heroPosition}
         crumbs={[
           { href: '/services', label: 'Services' },
           { href: `/services/${page.slug}`, label: page.navLabel },

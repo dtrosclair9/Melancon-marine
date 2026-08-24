@@ -96,8 +96,9 @@ export default function AboutPage() {
         h1="An Owner-Operated Fleet on Bayou Lafourche"
         kicker="About Melancon Marine"
         intro="Towing, rentals, and marine construction from Larose, Louisiana, owned and operated by Alex Melancon."
-        image="/images/bayou-waterfront-spud-barge.jpg"
-        imageAlt="The working waterfront on Bayou Lafourche in Larose, Louisiana"
+        image="/images/tugs-lift-bridge.jpg"
+        imageAlt="Melancon Marine workboats passing the lift bridge on Bayou Lafourche"
+        imagePosition="object-[center_45%]"
         crumbs={[{ href: '/about', label: 'About' }]}
       />
 

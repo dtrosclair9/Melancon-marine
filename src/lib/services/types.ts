@@ -10,6 +10,8 @@ export type ServicePage = {
   description: string
   heroImage: string
   heroAlt: string
+  /** Tailwind object-position class when the subject sits off-center */
+  heroPosition?: string
   kicker: string
   intro: string[]
   specChips?: string[]

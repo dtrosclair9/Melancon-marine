@@ -84,6 +84,8 @@ export default function PrivacyPage() {
           <p>
             {site.legalName}
             <br />
+            {site.street}
+            <br />
             {site.city}, {site.stateFull} {site.zip}
             <br />
             Phone:{' '}

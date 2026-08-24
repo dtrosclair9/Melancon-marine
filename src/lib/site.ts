@@ -1,9 +1,7 @@
 // Single source of truth for business identity and site-wide constants.
-// LAUNCH TODOS (confirm with Alex before go-live):
-//  - BASE_URL: melanconmarine.com was unregistered on 2026-08-20 — register + confirm spelling
-//  - email: swap FORM + privacy contact from test address to Alex's real email
-//  - street address: city-level only until Alex confirms the ops yard address
-//  - FORMSPREE_ID: create a NEW Formspree form (never reuse an existing endpoint)
+// LAUNCH TODOS:
+//  - BASE_URL: register melanconmarine.com and confirm the exact spelling
+//  - formspreeId: create a NEW Formspree form pointed at Alex's email (never reuse an endpoint)
 
 export const BASE_URL = 'https://melanconmarine.com'
 
@@ -13,7 +11,8 @@ export const site = {
   owner: 'Alex Melancon',
   phoneDisplay: '(985) 691-4591',
   phoneRaw: '+19856914591',
-  email: 'daynetrosclair@icloud.com', // TEST ONLY — swap before launch
+  email: 'alexmelancon1@gmail.com',
+  street: 'LA-657',
   city: 'Larose',
   state: 'LA',
   stateFull: 'Louisiana',

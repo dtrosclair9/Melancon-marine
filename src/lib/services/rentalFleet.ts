@@ -8,8 +8,8 @@ export const rentalFleet: ServicePage[] = [
     title: 'Crew Boat Rental in Louisiana',
     description:
       "Aluminum crew boats built by Hanko's with twin Yamaha outboards, for crew transport, survey support, and light cargo runs from Larose, LA to South Louisiana job sites.",
-    heroImage: '/images/crew-boat-deck.jpg',
-    heroAlt: 'Aluminum crew boat deck and cabin at the Melancon Marine dock in Larose Louisiana',
+    heroImage: '/images/airboat-crew-boat-boathouse.jpg',
+    heroAlt: "Hanko's-built aluminum crew boat staged in the boathouse at Larose Louisiana",
     kicker: 'Crew Boats',
     intro: [
       "We rent aluminum crew boats built by Hanko's in Berwick, Louisiana, each with twin Yamaha outboards, an enclosed cabin, and open deck space. They're set up for moving crews, tools, and light cargo on inland and near-coastal water.",
@@ -84,7 +84,7 @@ export const rentalFleet: ServicePage[] = [
     serviceType: 'Crew boat rental',
     areaServed: ['Louisiana', 'Lafourche Parish', 'Terrebonne Parish', 'Port Fourchon', 'Grand Isle', 'Houma'],
     gallery: [
-      { src: '/images/airboat-crew-boat-boathouse.jpg', alt: "Hanko's aluminum crew boat staged in the Larose boathouse" },
+      { src: '/images/crew-boat-deck.jpg', alt: "Deck and cabin of a Hanko's-built aluminum crew boat at the Larose dock" },
       { src: '/images/bayou-waterfront-spud-barge.jpg', alt: 'Bayou Lafourche working waterfront near the Melancon Marine dock' },
       { src: '/images/tugs-lift-bridge.jpg', alt: 'Workboats passing the lift bridge on a South Louisiana waterway' },
     ],
@@ -96,8 +96,9 @@ export const rentalFleet: ServicePage[] = [
     title: 'Long Reach Excavator Rental in Louisiana',
     description:
       'Barge-mounted long-reach excavator rentals for canal cleaning, marsh work, and shoreline projects. Delivered on our spud barges by our own tugs from Larose, LA.',
-    heroImage: '/images/long-reach-excavator-marsh.jpg',
-    heroAlt: 'Long-reach excavator working a marsh shoreline from a spoil bank in South Louisiana',
+    heroImage: '/images/excavator-waterside.jpg',
+    heroAlt: 'Long-reach excavator working at the water edge on a South Louisiana job site',
+    heroPosition: 'object-[center_75%]',
     kicker: 'Long-Reach Work',
     intro: [
       "A long-reach excavator has an extended boom and stick that let it dig well past a standard machine's reach. On water jobs that means one setup can cover a full canal section or shoreline slope without repositioning all day.",
@@ -174,7 +175,7 @@ export const rentalFleet: ServicePage[] = [
     gallery: [
       { src: '/images/excavator-barge-bayou.jpg', alt: 'Excavator on a barge working a narrow Louisiana bayou' },
       { src: '/images/excavator-hopper-barge.jpg', alt: 'Excavator loading spoil into a hopper barge in South Louisiana' },
-      { src: '/images/excavator-waterside.jpg', alt: 'Tracked excavator staged at the water edge on a Louisiana job site' },
+      { src: '/images/pile-driving-barge.jpg', alt: 'Long-reach excavator on a spud barge alongside a pile-driving rig in South Louisiana' },
     ],
   },
   {

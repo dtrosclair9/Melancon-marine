@@ -79,7 +79,7 @@ const processSteps = [
 
 const galleryPhotos = [
   { src: '/images/tug-transport-lowboy.jpg', alt: 'Melancon Marine tugboat in transport on a lowboy trailer in South Louisiana' },
-  { src: '/images/long-reach-excavator-marsh.jpg', alt: 'Long-reach excavator working a marsh shoreline in coastal Louisiana' },
+  { src: '/images/pile-driving-barge.jpg', alt: 'Long-reach excavator and pile-driving rig working from a spud barge in South Louisiana' },
   { src: '/images/airboat-crew-boat-boathouse.jpg', alt: 'Airboat and aluminum crew boat staged in the boathouse at Larose' },
   { src: '/images/excavator-hopper-barge.jpg', alt: 'Excavator working from a hopper barge on a South Louisiana job' },
   { src: '/images/marsh-mat-platform.jpg', alt: 'Timber mat platform staged for marsh construction work' },
@@ -139,6 +139,7 @@ const localBusinessSchema = {
     'Marine towing and transportation, marine equipment rentals, and marine construction company based in Larose, Louisiana, serving South Louisiana.',
   address: {
     '@type': 'PostalAddress',
+    streetAddress: site.street,
     addressLocality: site.city,
     addressRegion: site.state,
     postalCode: site.zip,

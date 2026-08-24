@@ -92,7 +92,11 @@ export default function ContactPage() {
                   <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-dark mb-2">
                     Home Port
                   </p>
-                  <p className="text-earth font-semibold">{site.city}, {site.stateFull} {site.zip}</p>
+                  <p className="text-earth font-semibold">
+                    {site.street}
+                    <br />
+                    {site.city}, {site.stateFull} {site.zip}
+                  </p>
                   <p className="text-earth-light text-sm mt-2 leading-relaxed">
                     On Bayou Lafourche at the Intracoastal Waterway, about half an hour up LA-1
                     from Port Fourchon.

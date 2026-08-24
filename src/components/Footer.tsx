@@ -67,6 +67,8 @@ export default function Footer() {
               {serviceAreas.join(' · ')}
             </p>
             <p className="text-sm mt-4 text-sand/85">
+              {site.street}
+              <br />
               {site.city}, {site.stateFull} {site.zip}
             </p>
           </div>

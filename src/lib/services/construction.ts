@@ -8,8 +8,9 @@ export const construction: ServicePage[] = [
     title: 'Marine Construction in Louisiana',
     description:
       'Pile driving, bulkheads, dock building, and marsh spraying from a contractor with its own tugs, spud barges, and excavators. Based in Larose, LA. (985) 691-4591.',
-    heroImage: '/images/marsh-mat-platform.jpg',
-    heroAlt: 'Timber mat platform built over the water on a South Louisiana marine construction site',
+    heroImage: '/images/pile-driving-barge.jpg',
+    heroAlt: 'Melancon Marine long-reach excavator and pile-driving rig working from a spud barge in South Louisiana',
+    heroPosition: 'object-[center_72%]',
     kicker: 'Marine Construction',
     intro: [
       "Melancon Marine drives piles and builds bulkheads and docks across Lafourche, Terrebonne, and the surrounding parishes. We work off our own spud barges, with our own tugs and excavators, so jobs start without waiting on rented equipment.",
@@ -89,8 +90,8 @@ export const construction: ServicePage[] = [
     areaServed: ['Louisiana', 'Lafourche Parish', 'Terrebonne Parish', 'Houma', 'Grand Isle', 'Port Fourchon'],
     gallery: [
       { src: '/images/marsh-mat-platform.jpg', alt: 'Timber mat platform staged for marsh-side construction in South Louisiana' },
-      { src: '/images/long-reach-excavator-marsh.jpg', alt: 'Long-reach excavator shaping a marsh shoreline on a Louisiana job' },
-      { src: '/images/excavator-waterside.jpg', alt: 'Excavator working at the water edge on a marine construction site' },
+      { src: '/images/excavator-hopper-barge.jpg', alt: 'Excavator loading a hopper barge on a South Louisiana construction job' },
+      { src: '/images/barge-deck-marsh.jpg', alt: 'Barge deck working against the marsh edge on a Louisiana job site' },
     ],
   },
   {
