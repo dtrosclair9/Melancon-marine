@@ -274,7 +274,7 @@ export const construction: ServicePage[] = [
     description:
       'Bulkheads, docks, and pile driving for Houma and Terrebonne Parish waterfront. Barge-mounted crews reach bayou-side lots land equipment cannot. (985) 691-4591.',
     heroImage: '/images/hero-bulkhead.jpg',
-    heroAlt: 'Steel bulkhead lining a calm bayou bank at golden hour in South Louisiana',
+    heroAlt: 'Timber bulkhead wall holding the bank along a bayou in South Louisiana',
     kicker: 'Bulkheads & Docks',
     intro: [
       "We build and replace bulkheads and docks across Houma and Terrebonne Parish. Our crews work from spud barges, so we can reach bayou-side properties that land equipment can't get to, and we don't have to tear up your yard to do it.",
