@@ -24,6 +24,7 @@ export const serviceBuckets = [
       'Tug and barge towing on the ICW, Bayou Lafourche, and the Fourchon corridor, with two 1,200 HP tugs and equipment brokering of all types.',
     image: '/images/tug-pushing-spud-barge.jpg',
     imageAlt: 'Melancon Marine tugboat pushing a spud barge on a Louisiana waterway',
+    imagePosition: 'object-[center_65%]',
     chips: ['2× 1,200 HP TUGS', 'ICW + BAYOUS', 'BROKERING'],
   },
   {
@@ -42,6 +43,7 @@ export const serviceBuckets = [
       'Pile driving, bulkheads, and dock building from our own floating equipment, plus airboat herbicide spraying for marsh and canals.',
     image: '/images/pile-driving-barge.jpg',
     imageAlt: 'Long-reach excavator and pile-driving rig working from a barge in South Louisiana',
+    imagePosition: 'object-[center_65%]',
     chips: ['PILE DRIVING', 'BULKHEADS', 'DOCKS'],
   },
 ]

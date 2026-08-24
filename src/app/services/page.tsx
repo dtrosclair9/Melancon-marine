@@ -103,7 +103,7 @@ export default function ServicesIndexPage() {
                           alt={page.heroAlt}
                           fill
                           sizes="(max-width: 768px) 100vw, 33vw"
-                          className="object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                          className={`object-cover ${page.heroPosition ?? 'object-center'} group-hover:scale-[1.04] transition-transform duration-500`}
                         />
                       </div>
                       <div className="p-6">

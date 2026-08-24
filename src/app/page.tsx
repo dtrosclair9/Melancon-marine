@@ -278,7 +278,7 @@ export default function HomePage() {
                       alt={b.imageAlt}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover group-hover:scale-[1.04] transition-transform duration-500"
+                      className={`object-cover ${b.imagePosition ?? 'object-center'} group-hover:scale-[1.04] transition-transform duration-500`}
                     />
                   </div>
                   <div className="p-6">
