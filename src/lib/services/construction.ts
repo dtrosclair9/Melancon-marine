@@ -91,7 +91,7 @@ export const construction: ServicePage[] = [
     gallery: [
       { src: '/images/marsh-mat-platform.jpg', alt: 'Timber mat platform staged for marsh-side construction in South Louisiana' },
       { src: '/images/excavator-hopper-barge.jpg', alt: 'Excavator loading a hopper barge on a South Louisiana construction job' },
-      { src: '/images/barge-deck-marsh.jpg', alt: 'Barge deck working against the marsh edge on a Louisiana job site' },
+      { src: '/images/excavator-barge-bayou.jpg', alt: 'Excavator working from a barge on a South Louisiana job site' },
     ],
   },
   {
@@ -177,7 +177,7 @@ export const construction: ServicePage[] = [
     serviceType: 'Aquatic vegetation control and airboat herbicide spraying',
     areaServed: ['Louisiana', 'Lafourche Parish', 'Terrebonne Parish', 'Barataria Basin'],
     gallery: [
-      { src: '/images/barge-deck-marsh.jpg', alt: 'Airboat working thick water hyacinth beside a barge on a Louisiana canal' },
+      { src: '/images/airboat-hyacinth-work.jpg', alt: 'Airboat working water hyacinth while an excavator lifts a mass of it from a Louisiana canal' },
       { src: '/images/airboat-parked.jpg', alt: 'Melancon Marine spray airboat staged in Larose' },
       { src: '/images/airboat-trailer.jpg', alt: 'Airboat on its trailer ready to mobilize to a spray job' },
     ],

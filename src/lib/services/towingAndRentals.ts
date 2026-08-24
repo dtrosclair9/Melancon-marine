@@ -270,7 +270,7 @@ export const towingAndRentals: ServicePage[] = [
     gallery: [
       { src: '/images/tug-pushing-spud-barge.jpg', alt: 'Tug positioning a spud barge on a Lafourche Parish waterway' },
       { src: '/images/excavator-barge-bayou.jpg', alt: 'Barge-mounted excavator working a bayou job site in South Louisiana' },
-      { src: '/images/barge-deck-marsh.jpg', alt: 'Spud barge deck working close against Louisiana marsh vegetation' },
+      { src: '/images/marsh-mat-platform.jpg', alt: 'Timber mat platform staged beside the water on a South Louisiana job' },
     ],
   },
 ]

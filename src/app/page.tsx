@@ -7,6 +7,7 @@ import FaqSection from '@/components/FaqSection'
 import CtaBand from '@/components/CtaBand'
 import { BASE_URL, ogImage, site, serviceAreas } from '@/lib/site'
 import { serviceBuckets } from '@/lib/services'
+import { imgPos } from '@/lib/imagePos'
 
 export const metadata: Metadata = {
   title: 'Melancon Marine | Towing, Rentals & Marine Construction LA',
@@ -278,7 +279,7 @@ export default function HomePage() {
                       alt={b.imageAlt}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
-                      className={`object-cover ${b.imagePosition ?? 'object-center'} group-hover:scale-[1.04] transition-transform duration-500`}
+                      className={`object-cover ${b.imagePosition ?? imgPos(b.image)} group-hover:scale-[1.04] transition-transform duration-500`}
                     />
                   </div>
                   <div className="p-6">
@@ -394,7 +395,7 @@ export default function HomePage() {
                     alt={p.alt}
                     fill
                     sizes="(max-width: 1024px) 50vw, 33vw"
-                    className="object-cover hover:scale-[1.03] transition-transform duration-500"
+                    className={`object-cover ${imgPos(p.src)} hover:scale-[1.03] transition-transform duration-500`}
                   />
                 </div>
               </Reveal>
@@ -427,7 +428,7 @@ export default function HomePage() {
                   alt="The working waterfront on Bayou Lafourche in Larose Louisiana"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
+                  className={`object-cover ${imgPos('/images/bayou-waterfront-spud-barge.jpg')}`}
                 />
               </div>
             </Reveal>

@@ -9,6 +9,7 @@ import FaqSection from '@/components/FaqSection'
 import CtaBand from '@/components/CtaBand'
 import { BASE_URL, ogImage, site } from '@/lib/site'
 import { servicePages, getServicePage } from '@/lib/services'
+import { imgPos } from '@/lib/imagePos'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -73,7 +74,7 @@ export default async function ServicePage({ params }: Props) {
         kicker={page.kicker}
         image={page.heroImage}
         imageAlt={page.heroAlt}
-        imagePosition={page.heroPosition}
+        imagePosition={page.heroPosition ?? imgPos(page.heroImage)}
         crumbs={[
           { href: '/services', label: 'Services' },
           { href: `/services/${page.slug}`, label: page.navLabel },
@@ -220,7 +221,7 @@ export default async function ServicePage({ params }: Props) {
                       alt={g.alt}
                       fill
                       sizes="(max-width: 640px) 100vw, 33vw"
-                      className="object-cover hover:scale-[1.03] transition-transform duration-500"
+                      className={`object-cover ${imgPos(g.src)} hover:scale-[1.03] transition-transform duration-500`}
                     />
                   </div>
                 </Reveal>

@@ -6,6 +6,7 @@ import Reveal from '@/components/Reveal'
 import CtaBand from '@/components/CtaBand'
 import PageHero from '@/components/PageHero'
 import { BASE_URL, ogImage, site } from '@/lib/site'
+import { imgPos } from '@/lib/imagePos'
 
 export const metadata: Metadata = {
   title: 'About Our Fleet & Company in Larose, LA',
@@ -170,7 +171,7 @@ export default function AboutPage() {
                       alt={f.alt}
                       fill
                       sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover"
+                      className={`object-cover ${imgPos(f.image)}`}
                     />
                   </div>
                   <div className="p-6">

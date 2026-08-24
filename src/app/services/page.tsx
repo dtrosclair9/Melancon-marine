@@ -7,6 +7,7 @@ import CtaBand from '@/components/CtaBand'
 import PageHero from '@/components/PageHero'
 import { BASE_URL, ogImage, site } from '@/lib/site'
 import { servicePages, serviceBuckets } from '@/lib/services'
+import { imgPos } from '@/lib/imagePos'
 
 export const metadata: Metadata = {
   title: 'Marine Services in South Louisiana',
@@ -103,7 +104,7 @@ export default function ServicesIndexPage() {
                           alt={page.heroAlt}
                           fill
                           sizes="(max-width: 768px) 100vw, 33vw"
-                          className={`object-cover ${page.heroPosition ?? 'object-center'} group-hover:scale-[1.04] transition-transform duration-500`}
+                          className={`object-cover ${page.heroPosition ?? imgPos(page.heroImage)} group-hover:scale-[1.04] transition-transform duration-500`}
                         />
                       </div>
                       <div className="p-6">
