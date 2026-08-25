@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import HeroCinematic from '@/components/HeroCinematic'
+import HeroVideo from '@/components/HeroVideo'
 import { site } from '@/lib/site'
 
 // Internal preview only — never indexed, never in the sitemap.
@@ -49,8 +50,8 @@ export default function HeroPreviewPage() {
             Homepage hero options
           </h1>
           <p className="text-sand max-w-2xl">
-            Four versions of the top of the homepage. Option A is what is on the site now. B, C, and D
-            are full-screen aerials of the boat. Scroll through and pick one.
+            Five versions of the top of the homepage. A is what is on the site now. E is a short drone video
+            that loops. B, C, and D are still aerials. Scroll through and pick a letter.
           </p>
         </div>
       </div>
@@ -95,6 +96,25 @@ export default function HeroPreviewPage() {
             </div>
           </div>
         </section>
+      </div>
+
+      {/* Option E — the moving one */}
+      <div className="border-t-4 border-primary">
+        <div className="container-wide pt-8 pb-4">
+          <h2 className="font-mono text-sm uppercase tracking-[0.2em] text-accent-dark">
+            Option E — Drone VIDEO (5 seconds, loops, no sound)
+          </h2>
+          <p className="text-earth-light text-sm mt-1">
+            Same aerial, but moving: the drone drifts forward as the boat runs. Falls back to the still
+            photo on phones, on slow connections, and for anyone who has motion turned off.
+          </p>
+        </div>
+        <HeroVideo
+          src="/video/hero-drone.mp4"
+          poster="/images/drone-pusher-b.jpg"
+          posterAlt="Aerial view of a Melancon Marine tugboat pushing a loaded barge along the Intracoastal Waterway"
+          posterPosition="object-[center_55%]"
+        />
       </div>
 
       {OPTIONS.map((o) => (
