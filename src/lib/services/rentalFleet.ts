@@ -15,7 +15,7 @@ export const rentalFleet: ServicePage[] = [
       "We rent aluminum crew boats built by Hanko's in Berwick, Louisiana, each with twin Yamaha outboards, an enclosed cabin, and open deck space. They're set up for moving crews, tools, and light cargo on inland and near-coastal water.",
       'The boats support dredging crews, construction jobs, survey teams, and work along the Port Fourchon corridor. They rent by the day, week, or month, on their own or alongside our barges and tugs.',
     ],
-    specChips: ["2× HANKO'S BUILT", 'TWIN YAMAHA OUTBOARDS', 'ALUMINUM HULL', 'SHALLOW DRAFT'],
+    specChips: ["HANKO'S BUILT", 'TWIN YAMAHA OUTBOARDS', 'ALUMINUM HULL', 'SHALLOW DRAFT'],
     whyUs: [
       {
         heading: 'Built for this coast',
@@ -189,10 +189,10 @@ export const rentalFleet: ServicePage[] = [
     heroAlt: 'Melancon Marine working airboat staged at the yard in Larose Louisiana',
     kicker: 'Marsh Access',
     intro: [
-      "Much of coastal Louisiana is too shallow for a regular boat and too soft to drive on. Our airboats cover that terrain. We run two working airboats out of Larose for pipeline and right-of-way support, survey crews, environmental work, and crew transport into the marsh.",
+      "Much of coastal Louisiana is too shallow for a regular boat and too soft to drive on. Our airboats cover that terrain. We run working airboats out of Larose for pipeline and right-of-way support, survey crews, environmental work, and crew transport into the marsh.",
       "The boats are rigged for work, carrying crews and equipment, and they often serve as the access leg of a bigger job alongside our barges and excavators.",
     ],
-    specChips: ['2× AIRBOATS', 'MARSH ACCESS', 'ROW SUPPORT', 'CREW + GEAR'],
+    specChips: ['AIRBOATS', 'MARSH ACCESS', 'ROW SUPPORT', 'CREW + GEAR'],
     whyUs: [
       {
         heading: 'Rigged for work',

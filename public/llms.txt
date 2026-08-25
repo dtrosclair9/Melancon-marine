@@ -8,7 +8,7 @@
 ## Services
 
 - Marine Towing & Transportation — tug and barge towing on the ICW, Bayou Lafourche, and
-  the Port Fourchon corridor with two 1,200 HP tugboats; equipment brokering of all types:
+  the Port Fourchon corridor with 1,200 HP tugboats; equipment brokering of all types:
   https://melanconmarine.com/services/marine-towing-and-transportation-louisiana
 - Marine Equipment Rentals (hub): https://melanconmarine.com/services/equipment-rentals-louisiana
 - Spud Barge Rental — spud barges with long-reach excavators available aboard, delivered by
@@ -35,11 +35,12 @@
 
 ## Fleet
 
-- 2× 1,200 HP tugboats
-- 2× spud barges with excavators (long-reach available)
-- 2× aluminum crew boats built by Hanko's, twin Yamaha outboards
-- 2× working airboats
-- Fleet is expanding.
+- 1,200 HP inland tugboats
+- Spud barges with excavators (long-reach available)
+- Aluminum crew boats built by Hanko's, twin Yamaha outboards
+- Working airboats
+- Long-reach excavators, barge-mounted
+- Fleet is growing.
 
 ## Pages
 

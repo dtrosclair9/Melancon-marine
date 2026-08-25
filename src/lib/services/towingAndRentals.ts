@@ -7,15 +7,15 @@ export const towingAndRentals: ServicePage[] = [
     h1: 'Marine Towing & Transportation in Louisiana',
     title: 'Tug & Barge Towing in Louisiana',
     description:
-      'Inland tug and barge towing and marine transportation on the ICW, Bayou Lafourche, and the Port Fourchon corridor. Two 1,200 HP tugs based in Larose, LA.',
+      'Inland tug and barge towing and marine transportation on the ICW, Bayou Lafourche, and the Port Fourchon corridor. 1,200 HP tugs based in Larose, LA.',
     heroImage: '/images/tug-transport-lowboy.jpg',
     heroAlt: 'Melancon Marine tugboat being transported by lowboy trailer in South Louisiana',
     kicker: 'Tug & Barge Towing',
     intro: [
-      "Melancon Marine runs two 1,200 HP tugboats out of Larose, on Bayou Lafourche. We tow and shift barges on the Intracoastal Waterway, Bayou Lafourche, and the canals across Lafourche and Terrebonne Parishes, and we move equipment down the LA-1 corridor to Port Fourchon.",
+      "Melancon Marine runs 1,200 HP tugboats out of Larose, on Bayou Lafourche. We tow and shift barges on the Intracoastal Waterway, Bayou Lafourche, and the canals across Lafourche and Terrebonne Parishes, and we move equipment down the LA-1 corridor to Port Fourchon.",
       "We handle barge moves, equipment transportation, dredge and construction support, and standby tow work for contractors who don't run their own boats. Our spud barges, excavators, crew boats, and airboats stage at the same yard, so if the job needs more than a tow, we can send the rest of the equipment with it.",
     ],
-    specChips: ['2× 1,200 HP TUGS', 'ICW + BAYOU LAFOURCHE', 'FOURCHON CORRIDOR', 'FLEET EXPANDING'],
+    specChips: ['1,200 HP TUGS', 'ICW + BAYOU LAFOURCHE', 'FOURCHON CORRIDOR', 'MARINE CONSTRUCTION'],
     whyUs: [
       {
         heading: 'Based where the work is',
@@ -23,7 +23,7 @@ export const towingAndRentals: ServicePage[] = [
       },
       {
         heading: 'The right size boats for inland work',
-        body: "1,200 HP is a good fit for this water. The boats have enough push for loaded deck and spud barges, and they're small enough to work the narrow bayous and canals where bigger tugs can't go.",
+        body: "1,200 HP is a good fit for this water. The boats have enough push for loaded deck and spud barges, and they still work the narrow bayous and canals where bigger tugs can't go.",
       },
       {
         heading: 'Towing plus the equipment behind it',
@@ -109,9 +109,9 @@ export const towingAndRentals: ServicePage[] = [
     kicker: 'The Rental Fleet',
     intro: [
       "Melancon Marine rents marine equipment out of Larose: spud barges with excavators on deck, 1,200 HP tugboats, aluminum crew boats built by Hanko's, and airboats. We deliver rentals to your job site with our own tugs.",
-      "You can rent one piece or a full setup. A common package is a spud barge with a long-reach excavator on deck, towed to your site and spudded down. The fleet is still growing, so if you need something that isn't listed here, ask.",
+      "You can rent one piece or a full setup. A common package is a spud barge with a long-reach excavator on deck, towed to your site and spudded down. The fleet keeps growing, so if you need something that isn't listed here, ask.",
     ],
-    specChips: ['2× SPUD BARGES', '2× 1,200 HP TUGS', "2× HANKO'S CREW BOATS", '2× AIRBOATS', 'LONG-REACH ABOARD'],
+    specChips: ['SPUD BARGES', '1,200 HP TUGS', "HANKO'S CREW BOATS", 'AIRBOATS', 'LONG-REACH ABOARD'],
     whyUs: [
       {
         heading: 'Delivery is in the quote',
@@ -132,7 +132,7 @@ export const towingAndRentals: ServicePage[] = [
     ],
     included: [
       { title: 'Spud barges', detail: 'Work platforms that hold position without anchors, for pile driving, dredge support, and waterside construction.' },
-      { title: 'Tugboats', detail: '1,200 HP pushboats for tows, shifts, and on-site support.' },
+      { title: 'Tugboats', detail: '1,200 HP inland pushboats for tows, shifts, and on-site support.' },
       { title: 'Long-reach excavators', detail: 'Barge-mounted reach for canal, marsh, and shoreline work.' },
       { title: "Hanko's crew boats", detail: 'Aluminum crew boats with twin Yamaha outboards for crew and light-cargo runs.' },
       { title: 'Airboats', detail: "Access to marsh and flooded ground that conventional boats can't reach." },
@@ -199,7 +199,7 @@ export const towingAndRentals: ServicePage[] = [
       'A spud barge is a deck barge with steel spuds that drop to the bottom and hold it in place without anchors. It gives excavators, cranes, and pile-driving rigs a stable platform, it holds position in current, and it can be repositioned in minutes as the work moves.',
       "We rent spud barges out of Larose, bare or with a long-reach excavator already on deck, and we deliver them with our own 1,200 HP tugs. One quote covers the barge, the machine, and the tow.",
     ],
-    specChips: ['2× SPUD BARGES', 'EXCAVATORS ABOARD', 'TUG DELIVERY', 'STATEWIDE'],
+    specChips: ['SPUD BARGES', 'EXCAVATORS ABOARD', 'TUG DELIVERY', 'STATEWIDE'],
     whyUs: [
       {
         heading: 'Barge, machine, and tug in one quote',
@@ -221,7 +221,7 @@ export const towingAndRentals: ServicePage[] = [
     included: [
       { title: 'Spudded positioning', detail: 'Steel spuds hold the barge on station without anchor spreads or constant repositioning.' },
       { title: 'Long-reach excavator option', detail: 'Rent the barge with the machine already loaded and rigged.' },
-      { title: 'Tug delivery & pickup', detail: 'Our 1,200 HP tugs deliver, shift, and retrieve the barge on your schedule.' },
+      { title: 'Tug delivery & pickup', detail: 'Our tugs deliver, shift, and retrieve the barge on your schedule.' },
       { title: 'Crane & rig support', detail: 'A stable deck for pile hammers, cranes, and drilling rigs.' },
       { title: 'Dredge support duty', detail: 'Material handling and equipment staging alongside dredging operations.' },
       { title: 'On-site shifts', detail: 'The tug that delivered the barge can stay to shift it along the work as the job advances.' },
@@ -249,7 +249,7 @@ export const towingAndRentals: ServicePage[] = [
       },
       {
         q: 'How is the barge delivered to my job site?',
-        a: 'Our own 1,200 HP tugboats tow the barge from Larose to your site, position it, and set the spuds. When the job moves down the shoreline, the same tug can shift the barge, and when the job ends we retrieve it.',
+        a: 'Our 1,200 HP tugboats tow the barge from Larose to your site, position it, and set the spuds. When the job moves down the shoreline, the same tug can shift the barge, and when the job ends we retrieve it.',
       },
       {
         q: 'Can a spud barge work in shallow bayous and marsh?',

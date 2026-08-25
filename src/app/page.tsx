@@ -27,10 +27,10 @@ export const metadata: Metadata = {
 }
 
 const fleetStats = [
-  { stat: '2×', label: '1,200 HP Tugboats' },
-  { stat: '2×', label: 'Spud Barges w/ Excavators' },
-  { stat: '2×', label: "Hanko's Crew Boats" },
-  { stat: '2×', label: 'Working Airboats' },
+  { stat: 'Tugboats', label: '1,200 HP inland pushboats' },
+  { stat: 'Spud Barges', label: 'with long-reach excavators' },
+  { stat: 'Crew Boats', label: "Hanko's-built aluminum" },
+  { stat: 'Airboats', label: 'marsh and canal access' },
 ]
 
 const industries = [
@@ -98,7 +98,7 @@ const homeFaqs = [
   },
   {
     q: 'What equipment is in your fleet?',
-    a: "Two 1,200 HP tugboats, two spud barges with excavators including long-reach machines, two aluminum crew boats built by Hanko's with twin Yamaha outboards, and two working airboats. The fleet is expanding, so if you need something you do not see here, call and ask.",
+    a: "1,200 HP tugboats, spud barges with excavators including long-reach machines, aluminum crew boats built by Hanko's with twin Yamaha outboards, and working airboats. The fleet keeps growing, so if you need something you do not see here, call and ask.",
   },
   {
     q: 'Do you rent equipment to other contractors?',
@@ -245,13 +245,13 @@ export default function HomePage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {fleetStats.map((f) => (
               <div key={f.label} className="text-center">
-                <p className="font-serif text-3xl md:text-4xl !text-cream">{f.stat}</p>
-                <p className="font-mono text-[0.68rem] md:text-xs uppercase tracking-widest text-accent-pale mt-1">{f.label}</p>
+                <p className="font-serif text-xl md:text-2xl !text-cream">{f.stat}</p>
+                <p className="font-mono text-[0.68rem] md:text-xs uppercase tracking-widest text-accent-pale mt-1.5">{f.label}</p>
               </div>
             ))}
           </div>
           <p className="text-center font-mono text-xs uppercase tracking-widest text-sand/60 mt-5">
-            Fleet expanding
+            Fleet growing
           </p>
         </div>
       </section>

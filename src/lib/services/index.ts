@@ -21,11 +21,11 @@ export const serviceBuckets = [
     href: '/services/marine-towing-and-transportation-louisiana',
     title: 'Marine Towing & Transportation',
     blurb:
-      'Tug and barge towing on the ICW, Bayou Lafourche, and the Fourchon corridor, with two 1,200 HP tugs and equipment brokering of all types.',
+      'Tug and barge towing on the ICW, Bayou Lafourche, and the Fourchon corridor, with 1,200 HP tugs and equipment brokering of all types.',
     image: '/images/tug-pushing-spud-barge.jpg',
     imageAlt: 'Melancon Marine tugboat pushing a spud barge on a Louisiana waterway',
     imagePosition: 'object-[center_65%]',
-    chips: ['2× 1,200 HP TUGS', 'ICW + BAYOUS', 'BROKERING'],
+    chips: ['1,200 HP TUGS', 'ICW + BAYOUS', 'BROKERING'],
   },
   {
     href: '/services/equipment-rentals-louisiana',

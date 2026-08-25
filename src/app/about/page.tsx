@@ -11,7 +11,7 @@ import { imgPos } from '@/lib/imagePos'
 export const metadata: Metadata = {
   title: 'About Our Fleet & Company in Larose, LA',
   description:
-    'Melancon Marine is an owner-operated marine company in Larose, Louisiana: two 1,200 HP tugs, spud barges, crew boats, and airboats working South Louisiana water.',
+    'Melancon Marine is an owner-operated marine company in Larose, Louisiana: 1,200 HP tugs, spud barges, crew boats, and airboats working South Louisiana water.',
   alternates: { canonical: `${BASE_URL}/about` },
   openGraph: {
     title: `About Melancon Marine | Larose, Louisiana`,
@@ -46,28 +46,28 @@ const aboutSchema = [
 const fleet = [
   {
     name: 'Tugboats',
-    spec: '2× 1,200 HP',
+    spec: '1,200 HP',
     body: 'Inland pushboats sized for the ICW and bayou systems: barge tows, shifts, deliveries, and project support.',
     image: '/images/tug-transport-lowboy.jpg',
     alt: 'Melancon Marine tugboat being transported by lowboy trailer',
   },
   {
     name: 'Spud Barges',
-    spec: '2× with excavators',
+    spec: 'Long-reach ready',
     body: 'Pinned working platforms for pile driving, dredge support, and waterside construction, with long-reach machines available aboard.',
     image: '/images/excavator-barge-bayou.jpg',
     alt: 'Excavator working from a barge on a Louisiana bayou',
   },
   {
     name: 'Crew Boats',
-    spec: "2× Hanko's built",
+    spec: "Hanko's built",
     body: 'Aluminum hulls with twin Yamaha outboards moving crews, tools, and light cargo across inshore Louisiana.',
     image: '/images/crew-boat-deck.jpg',
     alt: 'Aluminum crew boat deck and cabin at the dock in Larose',
   },
   {
     name: 'Airboats',
-    spec: '2× working rigs',
+    spec: 'Marsh rigged',
     body: 'Marsh access for surveys, right-of-way support, and our herbicide spraying work.',
     image: '/images/airboat-parked.jpg',
     alt: 'Working airboat staged on the grass in Larose Louisiana',
@@ -120,7 +120,7 @@ export default function AboutPage() {
                   Waterway, about half an hour up LA-1 from Port Fourchon.
                 </p>
                 <p>
-                  The fleet is two 1,200 HP tugboats, two spud barges with excavators, two Hanko&apos;s-built aluminum crew boats, and two working airboats, and it&apos;s still growing. That covers most of what marine jobs down here call for: the tow, the platform, the digging, and the access.
+                  The fleet runs 1,200 HP tugboats, spud barges with excavators, Hanko&apos;s-built aluminum crew boats, and working airboats, and it keeps growing. That covers most of what marine jobs down here call for: the tow, the platform, the digging, and the access.
                 </p>
                 <p>
                   Keeping towing, rentals, and construction under one roof means fewer handoffs. The contractor renting our spud barge gets it delivered by our tug, and the camp owner whose dock we build gets it driven from our own barge. Either way, the responsibility stays with us from start to finish.

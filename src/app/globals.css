@@ -64,7 +64,7 @@
     @apply font-mono uppercase tracking-[0.2em] text-sm font-medium text-accent-pale;
   }
 
-  /* Equipment spec chip: "1,200 HP" / "2× SPUD BARGES" */
+  /* Equipment spec chip: "1,200 HP" / "SPUD BARGES" */
   .spec-chip {
     @apply inline-block font-mono text-xs uppercase tracking-wider text-ink bg-sand border border-sand-dark rounded px-2.5 py-1;
   }
