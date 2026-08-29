@@ -1,8 +1,4 @@
 // Single source of truth for business identity and site-wide constants.
-// LAUNCH TODOS:
-//  - BASE_URL: register melanconmarine.com and confirm the exact spelling
-//  - formspreeId: create a NEW Formspree form pointed at Alex's email (never reuse an endpoint)
-
 export const BASE_URL = 'https://melanconmarine.com'
 
 export const site = {
@@ -19,7 +15,7 @@ export const site = {
   zip: '70373',
   parish: 'Lafourche Parish',
   geo: { lat: 29.5725, lng: -90.3818 },
-  formspreeId: 'FORMSPREE_ID', // TODO: create new form at formspree.io before launch
+  formspreeId: 'mjyvkaep',
 }
 
 // Spread into every page's openGraph — pages that set their own openGraph do NOT
